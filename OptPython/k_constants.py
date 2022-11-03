@@ -4,7 +4,7 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3]
-CAVITIES_PER_ROW = [4, 3, 4, 3, 4]
+CAVITIES_PER_ROW = [4, 4, 4, 4]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
