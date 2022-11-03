@@ -7,6 +7,4 @@ Mapdl(start_instance=True)
 print(mapdl)
 
 # %%
-hola = [(1:4)]
-print(hola)
 # %%

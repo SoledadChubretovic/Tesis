@@ -1,111 +1,83 @@
 #%% ACTIVAR LICENCIA Y LIBRERIAS
-
-# Unidades: m,W,C
-#from ansys.mapdl.core import launch_mapdl
-#mapdl = launch_mapdl()
+from ansys.mapdl.core import launch_mapdl
+mapdl = launch_mapdl()
 
 # %% CALCULO TERMICO LADRILLO
+
 import numpy as np
 import time
 
- #### GEOMETRY AND MATERIAL VALUES ####
-# Number of variables, constrains and objective functions
-n_cav_L = 4
-n_cav_W = 4
-n_cav = n_cav_L*n_cav_W
-n_var = n_cav + 3 #number of variables (li,w,W,lambda_clay)
+from k_constants import (
+    CAVITIES_PER_ROW,
+    N_CAVITIES,
+    N_VARIABLES,
+    L,
+    H,
+    DIM_Z,
+    T_MIN,
+    W2_MIN,
+    W2_MAX,
+    LAMBDA_CLAY100_MIN,
+    LAMBDA_CLAY100_MAX,
+    l_MAX,
+    w_MAX,
+    RAD,
+    BTZ
+)
+from RH import (
+    generate_cavitiy_ansys_parameters
+)
 
-# Upper and lower limit
-L = 154 #mm
-W2_min = 140/2 #mm 70*2 = 140
-W2_max = 300/2 #mm 150*2 = 300
-t_min = 10 #mm
-l_max = (L - 2*n_cav_L*t_min) #mm
-w_max = (W2_max - 2*n_cav_W*t_min) #mm
-lambda_clay100_min = 50 #W/mK
-lambda_clay100_max = 62 #W/mK
-xl = np.ones(n_var - 2)*t_min #mm
-xl = np.append(xl,W2_min) #mm
-xl = np.append(xl,lambda_clay100_min) #mm
-xu = np.ones(n_cav)*l_max #mm
-xu = np.append(xu,w_max) #mm
-xu = np.append(xu,W2_max) #mm
-xu = np.append(xu,lambda_clay100_max) #mm
+x = [
+    # l1, ..., ln
+    15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+    # w
+    42,
+    # W
+    118,
+    # lambda_clay
+    61
+]
 
-x = [15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15, 42, 118, 61]
+# lower limit fo variables
+xl = np.ones(N_VARIABLES - 2) * T_MIN # mm
+xl = np.append(xl, W2_MIN) # mm
+xl = np.append(xl, LAMBDA_CLAY100_MIN) # mm
+
+# upper limits of variables
+xu = np.ones(N_CAVITIES) * l_MAX # mm
+xu = np.append(xu, w_MAX) # mm
+xu = np.append(xu, W2_MAX) # mm
+xu = np.append(xu, LAMBDA_CLAY100_MAX) # mm
 
 #### GEOMETRY AND MATERIAL VALUES ####
-H = 113 #mm
-W = x[-2]*2 #mm
 
-# Areas
-Ah = x[-3]*(sum(x)-x[-1]-x[-2]-x[-3])
-Ab = W*L
-An = Ab-Ah
+# vector is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
+_w_pos = len(x) - 3
+_W_pos = len(x) - 2
+_λ_pos = len(x) - 1
 
-# Asumo que todos los tabiques son igual de ancho en una misma linea
-suma = 0
-for i in range(0, n_cav_L):    
-    suma = suma + x[i]
-tla = (L-suma)/(n_cav_L+1) #mm
+# width of the brick
+W = x[_W_pos] * 2 # mm
 
-suma = 0
-for i in range(n_cav_L, n_cav_L*2):    
-    suma = suma + x[i]
-tlb = (L-suma)/(n_cav_L+1) #mm
+# width of every cavity
+w = x[_w_pos] #mm
 
-suma = 0
-for i in range(n_cav_L*2, n_cav_L*3):    
-    suma = suma + x[i]
-tlc = (L-suma)/(n_cav_L+1) #mm
-
-suma = 0
-for i in range(n_cav_L*3, n_cav_L*4):    
-    suma = suma + x[i]
-tld = (L-suma)/(n_cav_L+1) #mm
-
-tw = (W-n_cav_W*x[-3])/(n_cav_W+1) #mm
+# area of the cavities within the brick ()
+Ah = x[_w_pos] * sum(x[:N_CAVITIES])
+# total area of the brick
+Ab = W * L
+# net area of the brick (total - cavities)
+An = Ab - Ah
 
 # [centro x, centro y, largo x, largo y]
-b = np.array([L/2,W/2,L,W])/1000 #m
-dimz = H/1000 #m
-
-count = 0
-c1a = np.array([tla+x[count]/2 , W-(tw+x[-3]/2) , x[count] , x[-3]])/1000 #m
-c2a = np.array([2*tla+x[count]+x[count+1]/2 , W-(tw+x[-3]/2) , x[count+1] , x[-3]])/1000 #m
-c3a = np.array([3*tla+x[count]+x[count+1]+x[count+2]/2 , W-(tw+x[-3]/2) , x[count+2] , x[-3]])/1000 #m
-c4a = np.array([4*tla+x[count]+x[count+1]+x[count+2]+x[count+3]/2 , W-(tw+x[-3]/2) , x[count+3] , x[-3]])/1000 #m
-
-count = count + n_cav_L
-c1b = np.array([tlb+x[count]/2 , W-(2*tw+x[-3]*3/2) , x[count] , x[-3]])/1000 #m
-c2b = np.array([2*tlb+x[count]+x[count+1]/2 , W-(2*tw+x[-3]*3/2) , x[count+1] , x[-3]])/1000 #m
-c3b = np.array([3*tlb+x[count]+x[count+1]+x[count+2]/2 , W-(2*tw+x[-3]*3/2) , x[count+2] , x[-3]])/1000 #m
-c4b = np.array([4*tlb+x[count]+x[count+1]+x[count+2]+x[count+3]/2 , W-(2*tw+x[-3]*3/2) , x[count+3] , x[-3]])/1000 #m
-
-count = count + n_cav_L
-c1c = np.array([tlc+x[count]/2 , 2*tw+x[-3]*3/2 , x[count] , x[-3]])/1000 #m
-c2c = np.array([2*tlc+x[count]+x[count+1]/2 , 2*tw+x[-3]*3/2 , x[count+1] , x[-3]])/1000 #m
-c3c = np.array([3*tlc+x[count]+x[count+1]+x[count+2]/2 , 2*tw+x[-3]*3/2 , x[count+2] , x[-3]])/1000 #m
-c4c = np.array([4*tlc+x[count]+x[count+1]+x[count+2]+x[count+3]/2 ,2*tw+x[-3]*3/2 , x[count+3] , x[-3]])/1000 #m
-
-count = count + n_cav_L
-c1d = np.array([tld+x[count]/2 , tw+x[-3]/2 , x[count] , x[-3]])/1000 #m
-c2d = np.array([2*tld+x[count]+x[count+1]/2 , tw+x[-3]/2 , x[count+1] , x[-3]])/1000 #m
-c3d = np.array([3*tld+x[count]+x[count+1]+x[count+2]/2 , tw+x[-3]/2 , x[count+2] , x[-3]])/1000 #m
-c4d = np.array([4*tld+x[count]+x[count+1]+x[count+2]+x[count+3]/2 , tw+x[-3]/2 , x[count+3] , x[-3]])/1000 #m
-
-
-ca = np.concatenate((c1a,c2a,c3a,c4a))
-cb = np.concatenate((c1b,c2b,c3b,c4b))
-cc = np.concatenate((c1c,c2c,c3c,c4c))
-cd = np.concatenate((c1d,c2d,c3d,c4d))
+b = np.array([L/2,W/2,L,W])/1000 # m
+matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000 # m
 
 # Thermal parameters
-lambda_clay = x[-1]/100 #W/mK
+λ_clay = x[_λ_pos] / 100 # W/mK
 
-matriz = np.array([c1a,c2a,c3a,c4a,c1b,c2b,c3b,c4b,c1c,c2c,c3c,c4c,c1d,c2d,c3d,c4d])
-
-elemento = [0.002,0.001]
+elemento = [0.006]
 
 for elefini in elemento:
     print("----------------------------------")
@@ -116,46 +88,45 @@ for elefini in elemento:
     mapdl.clear()
     mapdl.prep7()
 
-    ###### GEOMETRIA ######
-    brick_perimeter = mapdl.blc5(b[0],b[1],b[2],b[3])
-    for row in matriz:
-        mapdl.blc5(row[0],row[1],row[2],row[3])
+    ###### GEOMETRY ######
+    brick_perimeter = mapdl.blc5(*b)
+    for row in matrix:
+        mapdl.blc5(*row)
 
     cavities = mapdl.asba(brick_perimeter, 'all')
     mapdl.allsel()
-    #mapdl.aplot(show_area_numbering=True)
-    mapdl.vext(cavities,dz = dimz) #m
-    #mapdl.vplot(show_area_numbering=True)
-
+    mapdl.aplot(show_area_numbering=True)
+    mapdl.vext(cavities, dz = DIM_Z) # m
+    mapdl.vplot(show_area_numbering=True)
 
     ###### ASIGNACION DE ATRIBUTOS ###### 
 
     # Material (Conductividad termica, material isotrópico)
     Id_arcilla = 1
-    mapdl.mp("KXX",Id_arcilla,lambda_clay)
-    mapdl.mp("KYY",Id_arcilla,lambda_clay)
-    mapdl.mp("KZZ",Id_arcilla,lambda_clay)
+    mapdl.mp("KXX", Id_arcilla, λ_clay)
+    mapdl.mp("KYY", Id_arcilla, λ_clay)
+    mapdl.mp("KZZ", Id_arcilla, λ_clay)
 
     # Elemento finito
     Id_ladrillo = 1
-    mapdl.et(Id_ladrillo,"Solid70") #element reference p.297 "SOLID70"
+    mapdl.et(Id_ladrillo, "Solid70") # element reference p.297 "SOLID70"
 
     # Asignar todo a ladrillo
-    mapdl.vatt(Id_arcilla,0,Id_ladrillo)
+    mapdl.vatt(Id_arcilla, 0, Id_ladrillo)
 
     ###### MALLADO ######
-    mapdl.mshape(1,"3D")
+    mapdl.mshape(1, "3D")
     mapdl.esize(elefini)
-    mapdl.mopt("vmesh","default")
-    #mapdl.mopt("expnd",3)
-    #mapdl.mopt("trans",1.5)
+    mapdl.mopt("vmesh", "default")
+    mapdl.mopt("expnd", 3)
+    mapdl.mopt("trans", 1.5)
     mapdl.vmesh("all")
-    #mapdl.eplot()
+    mapdl.eplot()
 
     ###### CONDICIONES DE BORDE DOF CONSTRAINS ######
 
-    Thot = 30 #C
-    Tcold = 18 #C
+    Thot = 30 # C
+    Tcold = 18 # C
 
     mapdl.asel("S", vmin=2)
     mapdl.da("all", "temp", Tcold)
@@ -171,7 +142,7 @@ for elefini in elemento:
     # POST-PROCESSING
     mapdl.post1()
     mapdl.set("last","last")
-    #mapdl.post_processing.plot_nodal_temperature()
+    mapdl.post_processing.plot_nodal_temperature()
 
     ###### FLUJO DE CALOR ###### 
 
@@ -232,46 +203,40 @@ for elefini in elemento:
     while iteracion < 3:
         print(iteracion)
         # Calculo Tm
-        a_conv = [] #lista con todas las areas interiores (numeros correctos, saltandose la que corresponde)
-        for i in range(6,n_cav+2):
-            a_conv = np.append(a_conv,i)
-        for i in range(n_cav+3,n_cav*4+7):
-            a_conv = np.append(a_conv,i)
+        areas_convection = [] # lista con todas las areas interiores (numeros correctos, saltandose la que corresponde)
+        for i in range(6, N_CAVITIES + 2):
+            areas_convection = np.append(areas_convection, i)
+        for i in range(N_CAVITIES + 3, N_CAVITIES * 4 + 7):
+            areas_convection = np.append(areas_convection, i)
 
-        T_conv = np.zeros(len(a_conv))
-        j = 0
-        for i in  a_conv:
+        T_conv = np.zeros(len(areas_convection))
+        for idx, i in enumerate(areas_convection):
             mapdl.asel("S", vmin=i)
             mapdl.nsla()
             T = mapdl.post_processing.nodal_temperature() #temperaturas en cada nodo del area
-            T_conv[j]= sum(T)/len(T) #temperatura promedio del area
-            j = j+1
+            T_conv[idx]= np.mean(T) #temperatura promedio del area
 
-        Tm_conv = np.zeros(n_cav) #temperatura media para cada cavidad
-        j = 0
-        for i in range(0,len(T_conv),4):
-            Tm_conv[j] = (T_conv[i]+T_conv[i+1]+T_conv[i+2]+T_conv[i+3])/4
-            j = j+1
+        Tm_conv = np.zeros(N_CAVITIES) #temperatura media para cada cavidad
+        for idx, i in enumerate(range(0,len(T_conv),4)):
+            Tm_conv[idx] = np.mean(T_conv[i:i+4])
 
         # Calculo parametro H (W/m2K)
-        btz = 5.67e-8 #W/m2K4
-        rad = 0.83
 
-        d = np.zeros(n_cav)
+        d = np.zeros(N_CAVITIES)
         for i in range(0,len(d)):
             d[i]= matriz[i,3] #m  
 
-        b1 = np.zeros(n_cav)
+        b1 = np.zeros(N_CAVITIES)
         for i in range(0,len(b1)):
             b1[i]= matriz[i,2] #m
 
-        hr0 = 4*btz*(np.array(Tm_conv+273.15)**3)
+        hr0 = 4*BTZ*(np.array(Tm_conv+273.15)**3)
 
-        ha = np.zeros(n_cav)
+        ha = np.zeros(N_CAVITIES)
         for i in range(0,len(ha)):
             ha[i] = max(0.025/d[i],1.25)
 
-        hr = hr0/((1/rad)+(1/rad)-2+(2/(1+np.sqrt(1+(d**2)/(b1**2))-d/b1)))
+        hr = hr0/((1/RAD)+(1/RAD)-2+(2/(1+np.sqrt(1+(d**2)/(b1**2))-d/b1)))
 
         H_conv = hr + ha #W/m2K
 
@@ -356,7 +321,6 @@ for elefini in elemento:
     end = time.time()
     print("Time: ", (end-start), "s")
 #%%otro
-print(L,H)
 
 # ###### FLUJO DE CALOR ###### 
 

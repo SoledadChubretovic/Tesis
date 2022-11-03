@@ -204,7 +204,7 @@ for elefini in elemento:
 
         # Calculo parametro H (W/m2K)
         btz = 5.67e-8 #W/m2K4
-        rad = 0.83
+        RAD = 0.83
 
         d = np.zeros(n_cav)
         for i in range(0,len(d)):
@@ -220,7 +220,7 @@ for elefini in elemento:
         for i in range(0,len(ha)):
             ha[i] = max(0.025/d[i],1.25)
 
-        hr = hr0/((1/rad)+(1/rad)-2+(2/(1+np.sqrt(1+(d**2)/(b1**2))-d/b1)))
+        hr = hr0/((1/RAD)+(1/RAD)-2+(2/(1+np.sqrt(1+(d**2)/(b1**2))-d/b1)))
 
         H = hr + ha #W/m2K
 
