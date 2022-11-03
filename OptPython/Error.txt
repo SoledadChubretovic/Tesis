@@ -1,0 +1,1319 @@
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE855180>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE867F40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8BCB80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8BC980>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE72BE40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8EF6C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8F5C80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8EE800>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE900D40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8EE980>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF90F880>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8F5640>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8FAFC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8FAB80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF926E40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8F57C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF928C80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF95EB00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF964940>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF976FC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF964D00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9265C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF90F240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF926380>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF97C440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF979400>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF976F00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF90F300>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF989D40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9897C0>
+Ningun error. --- Umuro = 4.778606654870031
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF97AD40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF97A840>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B4DC0>
+Error:<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    2515.219   TIME= 16:34:12
+ An error occurred during sweeping while meshing area 18.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    2516.172   TIME= 16:34:13
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 18 TO AREA 1
+        VOLUME 1 MESHED WITH 25935 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     33700
+ MAXIMUM ELEMENT NUMBER     =     25973
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     25973 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              25973              0             0         0.00 %
+  Parallel Deviation        25973              0             0         0.00 %
+  Maximum Angle             25973             38             0         0.15 %
+  Jacobian Ratio            25973              0             0         0.00 %
+  Warping Factor            25973              0             0         0.00 %
+
+  Any                       25973             38             0         0.15 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    2516.719   TIME= 16:34:13
+ Shape testing revealed that 38 of the 25973 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000022ADF95DE80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF97C380>
+Error:<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    2524.047   TIME= 16:34:21
+ An error occurred during sweeping while meshing area 18.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    2524.469   TIME= 16:34:21
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 18 TO AREA 1
+        VOLUME 1 MESHED WITH 23351 HEXAHEDRA AND 190 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     31260
+ MAXIMUM ELEMENT NUMBER     =     23541
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     23541 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              23541            266             0         1.13 %
+  Parallel Deviation        23541              0             0         0.00 %
+  Maximum Angle             23541            228             0         0.97 %
+  Jacobian Ratio            23541              0             0         0.00 %
+  Warping Factor            23541              0             0         0.00 %
+
+  Any                       23541            266             0         1.13 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    2525.031   TIME= 16:34:22
+ Shape testing revealed that 266 of the 23541 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000022ADF9D2280>
+Ningun error. --- Umuro = 4.664989881394834
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B4A80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B4580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B34C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B5840>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9E0380>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9C9E80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9E8140>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9D1B40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B9440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9F8740>
+Ningun error. --- Umuro = 4.618032182258294
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE89AA80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9FEEC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA27C80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA27B80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA3C740>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9E7B80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA369C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA1D9C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9D2600>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9C6F40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9F9BC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21080>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B3B40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA26800>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9C2A80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA23740>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21F40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA48DC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA4C440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA48AC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA43440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA63B40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9ECAC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA526C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5CEC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A60D00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF906E40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA6F600>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA20240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA3CA00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA43AC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8FE280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA43880>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA6F7C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21A80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA26DC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF95A200>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5E400>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9F2F40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A76E40>
+Ningun error. --- Umuro = 4.47766869359664
+Ningun error. --- Umuro = 4.567095282967429
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5CEC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA52440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A7D500>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A83680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA1D440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A604C0>
+Ningun error. --- Umuro = 0.8600259963242761
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A762C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A8ED40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A99FC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9FEA80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A99900>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B0540>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A83B40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A9DC40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A9D4C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC1C80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC0680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD6C80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD5580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A76800>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA1D640>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD5640>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A76DC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF0340>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF93C040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC13C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD5D00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC1380>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACE640>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9C2A80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A7D540>
+Ningun error. --- Umuro = 4.77447667852724
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF1EC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC6680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA20E80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A99240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A83780>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5AD00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC1F00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF4CC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9B0540>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF0200>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B08D00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B08280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B17680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B17FC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF97CF00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B0D7C0>
+Ningun error. --- Umuro = 0.8270962289104842
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA21C00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACE480>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A83500>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD6980>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B01680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC15C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF0700>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B27F80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B1DDC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B19B40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B2CD40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B2EC00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A7DA00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B2C0C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA36CC0>
+Ningun error. --- Umuro = 0.8583523327288679
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A8C380>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AC0DC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B19840>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B295C0>
+Error:<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    3386.578   TIME= 16:49:49
+ An error occurred during sweeping while meshing area 18.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    3387.109   TIME= 16:49:49
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 18 TO AREA 1
+        VOLUME 1 MESHED WITH 22306 HEXAHEDRA AND 114 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     29920
+ MAXIMUM ELEMENT NUMBER     =     22420
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     22420 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              22420            171             0         0.76 %
+  Parallel Deviation        22420              0             0         0.00 %
+  Maximum Angle             22420              0             0         0.00 %
+  Jacobian Ratio            22420              0             0         0.00 %
+  Warping Factor            22420              0             0         0.00 %
+
+  Any                       22420            171             0         0.76 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    3387.703   TIME= 16:49:50
+ Shape testing revealed that 171 of the 22420 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000022AE1B39AC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF1040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B31F00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B31B00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B420C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD6EC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5BD00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5BD40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A99440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF0140>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B31300>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B60F80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B1D980>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4F0C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4F5C0>
+Ningun error. --- Umuro = 4.461434997502635
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B1DFC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B193C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B19C40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B39040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4B840>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5BCC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B6EAC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4B580>
+Ningun error. --- Umuro = 4.477640197757056
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B48240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B66A00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B0DDC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B83680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8CD00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B889C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A7FBC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B9F580>
+Ningun error. --- Umuro = 4.677870272008949
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B82800>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B66200>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD6100>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B314C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B68500>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A9B140>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B809C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B9F340>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B48E00>
+Ningun error. --- Umuro = 0.8621214619297587
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8EF80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B72580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AD6E40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B19640>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B78940>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B78580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B78900>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B97280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B87F80>
+Ningun error. --- Umuro = 4.4784243818134755
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B8E5C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3BA0D80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B68800>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B83C40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8E900>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B93D80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B83BC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4BF80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5BE80>
+Ningun error. --- Umuro = 4.567749740568233
+Ningun error. --- Umuro = 4.448731602390104
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B917C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B90380>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B9ED40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8EB40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B7BE00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B86340>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD9440>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B9E740>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3BA0880>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B997C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BAC440>
+Ningun error. --- Umuro = 0.8456415853744269
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B27280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BA6DC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD94C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD3200>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3BA0E00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BF3580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD97C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD98C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BD2C40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B83540>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B84C00>
+Ningun error. --- Umuro = 4.476617132464765
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8D140>
+Ningun error. --- Umuro = 4.461323542301495
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BF11C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD3100>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BF1A00>
+Ningun error. --- Umuro = 4.649100517958289
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BF0700>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B7B240>
+Ningun error. --- Umuro = 4.475808124115013
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BD7100>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BEA1C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5C05400>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BF8340>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BF8B80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD9E00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD37C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BF16C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BFBE40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5C05B80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B83E00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4B8F040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BE3780>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BD9480>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE4BA6F80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B90140>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B6E340>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B90700>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE2B8E480>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4F4C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B4F100>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5B740>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B8EA80>
+Ningun error. --- Umuro = 4.567766521872485
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B7B180>
+Ningun error. --- Umuro = 0.8445380667445297
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B27480>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B5BBC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B1C640>
+Ningun error. --- Umuro = 0.8378239948917735
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AE9240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B1D040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0AF1940>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACE780>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A99500>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE3B72C00>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE1B68940>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B2EC40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ADC140>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A6D240>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0B09A40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE5BDB280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA552C0>
+Error:<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    4582.328   TIME= 17:11:08
+ An error occurred during sweeping while meshing area 18.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+ 
+        SWEEPING VOLUME 1 FROM AREA 18 TO AREA 1
+        VOLUME 1 MESHED WITH 23674 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     31600
+ MAXIMUM ELEMENT NUMBER     =     23712
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     23712 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              23712              0             0         0.00 %
+  Parallel Deviation        23712              0             0         0.00 %
+  Maximum Angle             23712             95             0         0.40 %
+  Jacobian Ratio            23712              0             0         0.00 %
+  Warping Factor            23712              0             0         0.00 %
+
+  Any                       23712             95             0         0.40 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    4583.594   TIME= 17:11:10
+ Shape testing revealed that 95 of the 23712 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000022AE0A8ED80>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A8EF40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A8C0C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A7DE40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACE040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5AB40>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADE8BEA00>
+Ningun error. --- Umuro = 0.8484833935873656
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A5A580>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADF9FB480>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA52C40>
+Ningun error. --- Umuro = 4.676587918770666
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A8E6C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A60280>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACE040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A9BEC0>
+Error:<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    4712.047   TIME= 17:13:39
+ An error occurred during sweeping while meshing area 18.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    4712.609   TIME= 17:13:40
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 18 TO AREA 1
+        VOLUME 1 MESHED WITH 21641 HEXAHEDRA AND 190 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     29240
+ MAXIMUM ELEMENT NUMBER     =     21831
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     21831 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              21831            171             0         0.78 %
+  Parallel Deviation        21831              0             0         0.00 %
+  Maximum Angle             21831              0             0         0.00 %
+  Jacobian Ratio            21831             19             0         0.09 %
+  Warping Factor            21831              0             0         0.00 %
+
+  Any                       21831            171             0         0.78 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    4713.125   TIME= 17:13:41
+ Shape testing revealed that 171 of the 21831 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000022AE0A9D040>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0A60680>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022AE0ACEDC0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA658C0>
+Error:<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000022ADFA1DD80>
+Ningun error. --- Umuro = 0.7932542336882497
+Ningun error. --- Umuro = 0.9035854111302162
+Ningun error. --- Umuro = 0.8691866462837984
+Ningun error. --- Umuro = 0.782846346213841
+Ningun error. --- Umuro = 0.8928535291989362
+Ningun error. --- Umuro = 0.6935053619617932
+Ningun error. --- Umuro = 0.7908057822179358
+Ningun error. --- Umuro = 0.7800373632095698
+Ningun error. --- Umuro = 0.7893753438974153
+Ningun error. --- Umuro = 0.831088656339851
+Ningun error. --- Umuro = 0.7834644187630211
+Ningun error. --- Umuro = 0.8790949868718276
+Ningun error. --- Umuro = 0.8048282868122314
+Ningun error. --- Umuro = 0.7861552025698223
+Ningun error. --- Umuro = 0.7647872450666419
+Ningun error. --- Umuro = 0.8803556995815197
+Ningun error. --- Umuro = 0.803481228405602
+Ningun error. --- Umuro = 0.7795350419467302
+Ningun error. --- Umuro = 0.7786833217189314
+Ningun error. --- Umuro = 0.877488264662689
+Ningun error. --- Umuro = 0.7881769027240297
+Ningun error. --- Umuro = 0.8589741604952512
+Ningun error. --- Umuro = 0.7088978746256295
+Ningun error. --- Umuro = 0.9044347358546276
+Ningun error. --- Umuro = 0.8843489903336577
+Ningun error. --- Umuro = 0.7939523096073786
+Ningun error. --- Umuro = 0.7897159922046889
+Ningun error. --- Umuro = 0.7985055270745638
+Ningun error. --- Umuro = 0.8067028940873244
+Ningun error. --- Umuro = 0.7686529768977276
+Ningun error. --- Umuro = 0.926182953542479
+Ningun error. --- Umuro = 0.7498667412688408
+Ningun error. --- Umuro = 0.776602675033781
+Ningun error. --- Umuro = 0.900424676482456
+Ningun error. --- Umuro = 0.7831461696120076
+Ningun error. --- Umuro = 0.7817901255868243
+Ningun error. --- Umuro = 0.7489884210930987
+Ningun error. --- Umuro = 0.7761623044958859
+Ningun error. --- Umuro = 0.9355560050712957
+Ningun error. --- Umuro = 0.7971038265751588
+Ningun error. --- Umuro = 0.801013716978432
+Ningun error. --- Umuro = 0.9051445203550846
+Ningun error. --- Umuro = 0.8007786275475091
+Ningun error. --- Umuro = 0.7681080163302105
+Ningun error. --- Umuro = 0.779149963842917
+Ningun error. --- Umuro = 0.8985759461604259
+Ningun error. --- Umuro = 0.8048105114720348
+Ningun error. --- Umuro = 0.7866246809390778
+Ningun error. --- Umuro = 0.7366149872028921
+Ningun error. --- Umuro = 0.8323666691339675
+Ningun error. --- Umuro = 0.7783567049799148
+Ningun error. --- Umuro = 0.8919206601123683
+Ningun error. --- Umuro = 0.778636118689727
+Ningun error. --- Umuro = 0.8789924395631915
+Ningun error. --- Umuro = 0.908401308723192
+Ningun error. --- Umuro = 0.7688080102027168
+Ningun error. --- Umuro = 0.858613083786951
+Ningun error. --- Umuro = 0.7896356145679214
+Ningun error. --- Umuro = 0.8808982583415194
+Ningun error. --- Umuro = 0.8029067484443916
+Ningun error. --- Umuro = 0.7874528147503176
+Ningun error. --- Umuro = 0.8385378441833615
+Ningun error. --- Umuro = 0.7831596851132665
+Ningun error. --- Umuro = 0.8548256027936496
+Ningun error. --- Umuro = 0.7920184209377182
+Ningun error. --- Umuro = 0.804800859447468
+Ningun error. --- Umuro = 0.9335614071923252
+Ningun error. --- Umuro = 0.7641418762766489
+Ningun error. --- Umuro = 0.7775333520809004
+Ningun error. --- Umuro = 0.7497447033017055
+Ningun error. --- Umuro = 0.9055474477998425
+Ningun error. --- Umuro = 0.7792490010513241
+Ningun error. --- Umuro = 0.7773362982391795
+Ningun error. --- Umuro = 0.7815578852248309
+Ningun error. --- Umuro = 0.8659816342914677
+Ningun error. --- Umuro = 0.7723744915486429
+Ningun error. --- Umuro = 0.7634534506315054
+Ningun error. --- Umuro = 0.7825089863601936
+Ningun error. --- Umuro = 0.8699700361182098
+Ningun error. --- Umuro = 0.8891854191216833
+Ningun error. --- Umuro = 0.9072899914574795
+Ningun error. --- Umuro = 0.7989382152400695
+Ningun error. --- Umuro = 0.7877906335880044
+Ningun error. --- Umuro = 0.8350133942123009
+Ningun error. --- Umuro = 0.7727080638134444
+Ningun error. --- Umuro = 0.8131077846750644
+Ningun error. --- Umuro = 0.7983457151229375
+Ningun error. --- Umuro = 0.7902128558433824
+Ningun error. --- Umuro = 0.8639853419330993
+Ningun error. --- Umuro = 0.8772036029721113
+Ningun error. --- Umuro = 0.8037038530152153
+Ningun error. --- Umuro = 0.779312059018465
+Ningun error. --- Umuro = 0.7903662915749764
+Ningun error. --- Umuro = 0.7757912038234195
+Ningun error. --- Umuro = 0.7995700114409962
+Ningun error. --- Umuro = 0.9010580817932603
+Ningun error. --- Umuro = 0.7771745518403551
+Ningun error. --- Umuro = 0.8066804090224013
+Ningun error. --- Umuro = 0.7978499064377833
+Ningun error. --- Umuro = 0.8538568303620249
+Ningun error. --- Umuro = 0.804484939954692
+Ningun error. --- Umuro = 0.7902586710844687
+Ningun error. --- Umuro = 0.889515833905146
+Ningun error. --- Umuro = 0.7829914166014559
+Ningun error. --- Umuro = 0.7660324017475754
+Ningun error. --- Umuro = 0.7770239142658808
+Ningun error. --- Umuro = 0.7666061614626045
+Ningun error. --- Umuro = 0.7784285001665607
+Ningun error. --- Umuro = 0.7644945821156303
+Ningun error. --- Umuro = 0.7553079626763809
+Ningun error. --- Umuro = 0.846197687408759
+Ningun error. --- Umuro = 0.906600863651166
+Ningun error. --- Umuro = 0.7782162808700036
+Ningun error. --- Umuro = 0.777447503898767
+Ningun error. --- Umuro = 0.8404901142111851
+Ningun error. --- Umuro = 0.7580043622762797
+Ningun error. --- Umuro = 0.810923244306663
+Ningun error. --- Umuro = 0.768625998085839
+Ningun error. --- Umuro = 0.8104328936620178
+Ningun error. --- Umuro = 0.7740429496933057
+Ningun error. --- Umuro = 0.9414581895765817
+Ningun error. --- Umuro = 0.8767222517056706
+Ningun error. --- Umuro = 0.8775498360530269
+Ningun error. --- Umuro = 0.7781174299057159
+Ningun error. --- Umuro = 0.765357455536092
+Ningun error. --- Umuro = 0.8957967403085723
+Ningun error. --- Umuro = 0.7323956034713125
+Ningun error. --- Umuro = 0.9048139529581769
+Ningun error. --- Umuro = 0.7920116306126015
+Ningun error. --- Umuro = 0.7779690491490319
+Ningun error. --- Umuro = 0.7607765886099467
+Ningun error. --- Umuro = 0.7598746531161757
+Ningun error. --- Umuro = 0.7763906980524544
+Ningun error. --- Umuro = 0.7781303832597326
+Ningun error. --- Umuro = 0.7799732836597498
+Ningun error. --- Umuro = 0.788754190984768
+Ningun error. --- Umuro = 0.7677842790282421
+Ningun error. --- Umuro = 0.7828264488955105
+Ningun error. --- Umuro = 0.7687575641519357
+Ningun error. --- Umuro = 0.7602740400464723
+Ningun error. --- Umuro = 0.7761492118035914
+Ningun error. --- Umuro = 0.886637811024259
+Ningun error. --- Umuro = 0.8570645616235236
+Ningun error. --- Umuro = 0.7254079381724553
+Ningun error. --- Umuro = 0.7809634848831658
+Ningun error. --- Umuro = 0.7886486003405209
+Ningun error. --- Umuro = 0.7755913371763955
+Ningun error. --- Umuro = 0.8505749716069863
+Ningun error. --- Umuro = 0.7726438118636801
+Ningun error. --- Umuro = 0.8768092899287189
+Ningun error. --- Umuro = 0.7592596612944318
+Ningun error. --- Umuro = 0.878787503470904
+Ningun error. --- Umuro = 0.8442337813059895
+Ningun error. --- Umuro = 0.9060358633022443
+Ningun error. --- Umuro = 0.7904515482777621

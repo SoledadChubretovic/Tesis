@@ -1,0 +1,2345 @@
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F955D2B80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96623880>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =      28.094   TIME= 14:26:24
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =      31.047   TIME= 14:26:27
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 44650 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     52440
+ MAXIMUM ELEMENT NUMBER     =     44688
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     44688 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              44688             38             0         0.09 %
+  Parallel Deviation        44688              0             0         0.00 %
+  Maximum Angle             44688              0             0         0.00 %
+  Jacobian Ratio            44688             38             0         0.09 %
+  Warping Factor            44688              0             0         0.00 %
+
+  Any                       44688             38             0         0.09 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =      32.266   TIME= 14:26:28
+ Shape testing revealed that 38 of the 44688 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F9661C380>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96630A80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F955CD480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96640800>
+Ningun error. --- Umuro = 3.2505476460042813
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966A3B80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966A4F40>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =     187.203   TIME= 14:28:43
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =     188.141   TIME= 14:28:44
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 26733 HEXAHEDRA AND 228 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     33100
+ MAXIMUM ELEMENT NUMBER     =     26961
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     26961 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              26961            171             0         0.63 %
+  Parallel Deviation        26961              0             0         0.00 %
+  Maximum Angle             26961            171             0         0.63 %
+  Jacobian Ratio            26961              0             0         0.00 %
+  Warping Factor            26961              0             0         0.00 %
+
+  Any                       26961            171             0         0.63 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =     188.797   TIME= 14:28:45
+ Shape testing revealed that 171 of the 26961 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966A4E40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9661B200>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966A3640>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9668E940>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =     237.531   TIME= 14:29:29
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 25593 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     32340
+ MAXIMUM ELEMENT NUMBER     =     25631
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     25631 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              25631             76             0         0.30 %
+  Parallel Deviation        25631              0             0         0.00 %
+  Maximum Angle             25631              0             0         0.00 %
+  Jacobian Ratio            25631              0             0         0.00 %
+  Warping Factor            25631              0             0         0.00 %
+
+  Any                       25631             76             0         0.30 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =     239.125   TIME= 14:29:31
+ Shape testing revealed that 76 of the 25631 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966B5780>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966DCE40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F967259C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96729700>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96743480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96746400>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96728980>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9672A940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96743500>
+Ningun error. --- Umuro = 2.8105909365682793
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9675EAC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96743F00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96779280>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9678B500>
+Ningun error. --- Umuro = 1.4286375868826775
+Ningun error. --- Umuro = 3.752191767019823
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9679D040>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96763C40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96792140>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9678B800>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9777FAC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9778B640>
+Ningun error. --- Umuro = 2.5762470060849854
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977A3380>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977B9540>
+Ningun error. --- Umuro = 2.8978088296410736
+Ningun error. --- Umuro = 3.820462260102635
+Ningun error. --- Umuro = 3.8592416945911334
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9780D480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97818AC0>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    1159.203   TIME= 14:42:40
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    1161.281   TIME= 14:42:42
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 41933 HEXAHEDRA AND 0 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     49080
+ MAXIMUM ELEMENT NUMBER     =     41933
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     41933 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              41933             76             0         0.18 %
+  Parallel Deviation        41933              0             0         0.00 %
+  Maximum Angle             41933              0             0         0.00 %
+  Jacobian Ratio            41933             38             0         0.09 %
+  Warping Factor            41933              0             0         0.00 %
+
+  Any                       41933             76             0         0.18 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    1162.234   TIME= 14:42:43
+ Shape testing revealed that 76 of the 41933 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F977F8D80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97824480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9779FB40>
+Ningun error. --- Umuro = 1.435911497294246
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97818EC0>
+Ningun error. --- Umuro = 1.3631252144841384
+Ningun error. --- Umuro = 1.6114770535537566
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97849280>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97824240>
+Ningun error. --- Umuro = 3.610274626939635
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97806D80>
+Ningun error. --- Umuro = 2.2766212743378658
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97874E00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9787D580>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9785F880>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97842500>
+Ningun error. --- Umuro = 2.708085826299359
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97874500>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9780DB80>
+Ningun error. --- Umuro = 2.43621814747088
+Ningun error. --- Umuro = 3.829707026286543
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988823C0>
+Ningun error. --- Umuro = 3.5850004986742
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9888FF80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9789AC80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A3180>
+Ningun error. --- Umuro = 2.872055253449308
+Ningun error. --- Umuro = 3.926430625317302
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978A7840>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98882FC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A6D00>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    2376.875   TIME= 15:00:31
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    2379.672   TIME= 15:00:34
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 51034 HEXAHEDRA AND 76 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     59040
+ MAXIMUM ELEMENT NUMBER     =     51110
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     51110 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              51110             38             0         0.07 %
+  Parallel Deviation        51110              0             0         0.00 %
+  Maximum Angle             51110              0             0         0.00 %
+  Jacobian Ratio            51110              5             0         0.01 %
+  Warping Factor            51110              0             0         0.00 %
+
+  Any                       51110             38             0         0.07 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    2380.875   TIME= 15:00:35
+ Shape testing revealed that 38 of the 51110 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F9789CB00>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    2386.453   TIME= 15:00:41
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    2388.047   TIME= 15:00:43
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 38000 HEXAHEDRA AND 152 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     45240
+ MAXIMUM ELEMENT NUMBER     =     38152
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     38152 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              38152            133             0         0.35 %
+  Parallel Deviation        38152              0             0         0.00 %
+  Maximum Angle             38152            133             0         0.35 %
+  Jacobian Ratio            38152              0             0         0.00 %
+  Warping Factor            38152              0             0         0.00 %
+
+  Any                       38152            133             0         0.35 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    2388.938   TIME= 15:00:44
+ Shape testing revealed that 133 of the 38152 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F988C8240>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98888C00>
+Ningun error. --- Umuro = 2.230235756040115
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    2499.516   TIME= 15:02:17
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    2501.016   TIME= 15:02:18
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 30229 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     37020
+ MAXIMUM ELEMENT NUMBER     =     30267
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     30267 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              30267             76             0         0.25 %
+  Parallel Deviation        30267              0             0         0.00 %
+  Maximum Angle             30267              0             0         0.00 %
+  Jacobian Ratio            30267              0             0         0.00 %
+  Warping Factor            30267              0             0         0.00 %
+
+  Any                       30267             76             0         0.25 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    2501.656   TIME= 15:02:19
+ Shape testing revealed that 76 of the 30267 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F988C7E80>
+Ningun error. --- Umuro = 3.386952829722094
+Ningun error. --- Umuro = 3.7452198154436434
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988EEE80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C87C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988B3E00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98901FC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9890CD40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9890C300>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A3940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98923800>
+Ningun error. --- Umuro = 2.6975382428872425
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988BE500>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9892C940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98905440>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988E60C0>
+Ningun error. --- Umuro = 3.575361721409633
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    3007.609   TIME= 15:09:28
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    3009.172   TIME= 15:09:30
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 32015 HEXAHEDRA AND 0 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     38460
+ MAXIMUM ELEMENT NUMBER     =     32015
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     32015 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              32015             38             0         0.12 %
+  Parallel Deviation        32015              0             0         0.00 %
+  Maximum Angle             32015              0             0         0.00 %
+  Jacobian Ratio            32015             22             0         0.07 %
+  Warping Factor            32015              0             0         0.00 %
+
+  Any                       32015             38             0         0.12 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    3009.953   TIME= 15:09:31
+ Shape testing revealed that 38 of the 32015 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966BB300>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B8940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966DD340>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C7600>
+Ningun error. --- Umuro = 3.873345648008496
+Ningun error. --- Umuro = 1.424667612399563
+Ningun error. --- Umuro = 3.659022609999221
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97836DC0>
+Ningun error. --- Umuro = 1.620462912893671
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96792CC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C71C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97842700>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9676FE40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96779680>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9777C080>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96763800>
+Ningun error. --- Umuro = 1.6430939690319688
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96763140>
+Ningun error. --- Umuro = 1.7442725028956247
+Ningun error. --- Umuro = 1.5139537277326998
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    3711.562   TIME= 15:20:36
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    3713.266   TIME= 15:20:38
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 34105 HEXAHEDRA AND 0 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     40640
+ MAXIMUM ELEMENT NUMBER     =     34105
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     34105 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              34105             38             0         0.11 %
+  Parallel Deviation        34105              0             0         0.00 %
+  Maximum Angle             34105              0             0         0.00 %
+  Jacobian Ratio            34105             23             0         0.07 %
+  Warping Factor            34105              0             0         0.00 %
+
+  Any                       34105             38             0         0.11 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    3714.172   TIME= 15:20:39
+ Shape testing revealed that 38 of the 34105 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F96780540>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F967796C0>
+Ningun error. --- Umuro = 1.4511571614830332
+Ningun error. --- Umuro = 1.6275020801363882
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9778B040>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96742C40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96763880>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    3906.984   TIME= 15:23:51
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    3909.625   TIME= 15:23:54
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 44156 HEXAHEDRA AND 114 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     51920
+ MAXIMUM ELEMENT NUMBER     =     44270
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     44270 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              44270             38             0         0.09 %
+  Parallel Deviation        44270              0             0         0.00 %
+  Maximum Angle             44270              0             0         0.00 %
+  Jacobian Ratio            44270              7             0         0.02 %
+  Warping Factor            44270              0             0         0.00 %
+
+  Any                       44270             38             0         0.09 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    3910.906   TIME= 15:23:55
+ Shape testing revealed that 38 of the 44270 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F96746CC0>
+Ningun error. --- Umuro = 1.6549478620782725
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966DF980>
+Ningun error. --- Umuro = 3.081267533302916
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96737B80>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    4118.516   TIME= 15:27:04
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+
+      -- NONE--
+
+ The Following Volumes Could Not Be Swept
+     1
+<traceback object at 0x0000029F966B5C80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97800880>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966DF100>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B5240>
+Ningun error. --- Umuro = 1.4978034014287058
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B0540>
+Ningun error. --- Umuro = 2.950755153759855
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966D5440>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96637600>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966C4F80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966AB480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B2A00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B2380>
+Ningun error. --- Umuro = 1.417940233164028
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96637940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966955C0>
+Ningun error. --- Umuro = 1.6498377267520599
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96637180>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    4616.047   TIME= 15:34:42
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    4617.625   TIME= 15:34:44
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 31958 HEXAHEDRA AND 76 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     38400
+ MAXIMUM ELEMENT NUMBER     =     32034
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     32034 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              32034             76             0         0.24 %
+  Parallel Deviation        32034              0             0         0.00 %
+  Maximum Angle             32034              0             0         0.00 %
+  Jacobian Ratio            32034             21             0         0.07 %
+  Warping Factor            32034              0             0         0.00 %
+
+  Any                       32034             76             0         0.24 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    4618.359   TIME= 15:34:45
+ Shape testing revealed that 76 of the 32034 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966172C0>
+Ningun error. --- Umuro = 1.5942200033265743
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966BAEC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966999C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96623300>
+Ningun error. --- Umuro = 2.4321561213995846
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966A4640>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9668E580>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A6240>
+Ningun error. --- Umuro = 2.4794605613768974
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988D7F00>
+Ningun error. --- Umuro = 2.6371312852817623
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988BEB00>
+Ningun error. --- Umuro = 1.5327061603451517
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978A7780>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966956C0>
+Ningun error. --- Umuro = 1.376905372779848
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988FBC40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97841F40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9786DE80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F989233C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978A5900>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9784B380>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96686740>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9783ED00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97852C40>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    5411.609   TIME= 15:46:29
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    5413.344   TIME= 15:46:30
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 31825 HEXAHEDRA AND 0 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     38400
+ MAXIMUM ELEMENT NUMBER     =     31825
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     31825 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              31825             76             0         0.24 %
+  Parallel Deviation        31825              0             0         0.00 %
+  Maximum Angle             31825              0             0         0.00 %
+  Jacobian Ratio            31825             27             0         0.08 %
+  Warping Factor            31825              0             0         0.00 %
+
+  Any                       31825             76             0         0.24 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    5414.109   TIME= 15:46:31
+ Shape testing revealed that 76 of the 31825 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F978A41C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988BEC00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978887C0>
+Ningun error. --- Umuro = 3.8613860133405105
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97870440>
+Ningun error. --- Umuro = 3.133205944570249
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    5615.875   TIME= 15:49:25
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    5619.078   TIME= 15:49:28
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 51756 HEXAHEDRA AND 76 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     59640
+ MAXIMUM ELEMENT NUMBER     =     51832
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     51832 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              51832            152             0         0.29 %
+  Parallel Deviation        51832              0             0         0.00 %
+  Maximum Angle             51832              0             0         0.00 %
+  Jacobian Ratio            51832             57             0         0.11 %
+  Warping Factor            51832              0             0         0.00 %
+
+  Any                       51832            152             0         0.29 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    5620.531   TIME= 15:49:30
+ Shape testing revealed that 152 of the 51832 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F98965840>
+Ningun error. --- Umuro = 2.792184477890083
+Ningun error. --- Umuro = 2.51243561172686
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    5766.766   TIME= 15:51:38
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    5767.859   TIME= 15:51:39
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 26125 HEXAHEDRA AND 76 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     32660
+ MAXIMUM ELEMENT NUMBER     =     26201
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     26201 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              26201             76             0         0.29 %
+  Parallel Deviation        26201              0             0         0.00 %
+  Maximum Angle             26201              0             0         0.00 %
+  Jacobian Ratio            26201             11             0         0.04 %
+  Warping Factor            26201              0             0         0.00 %
+
+  Any                       26201             76             0         0.29 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    5768.500   TIME= 15:51:40
+ Shape testing revealed that 76 of the 26201 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F98946AC0>
+Ningun error. --- Umuro = 3.864527422811813
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9897D3C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C90F180>
+Ningun error. --- Umuro = 1.6523066531345136
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C90F480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C91A100>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C91D740>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C91AC00>
+Ningun error. --- Umuro = 1.6279634911251442
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C923F00>
+Ningun error. --- Umuro = 2.5796781081041624
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F989367C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97888FC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978A2EC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97852100>
+Ningun error. --- Umuro = 3.9870073033686086
+Ningun error. --- Umuro = 1.6065131778447284
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978A2940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98901C80>
+Ningun error. --- Umuro = 3.992779314569805
+Ningun error. --- Umuro = 1.4994390058223845
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96699580>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    6532.266   TIME= 16:03:30
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    6533.812   TIME= 16:03:32
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 29830 HEXAHEDRA AND 114 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     36300
+ MAXIMUM ELEMENT NUMBER     =     29944
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     29944 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              29944             38             0         0.13 %
+  Parallel Deviation        29944              0             0         0.00 %
+  Maximum Angle             29944              0             0         0.00 %
+  Jacobian Ratio            29944              0             0         0.00 %
+  Warping Factor            29944              0             0         0.00 %
+
+  Any                       29944             38             0         0.13 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    6534.531   TIME= 16:03:32
+ Shape testing revealed that 38 of the 29944 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966885C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96681DC0>
+Ningun error. --- Umuro = 1.6238851628901811
+Ningun error. --- Umuro = 1.5541490630738217
+Ningun error. --- Umuro = 3.9346915265251625
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988F8540>
+Ningun error. --- Umuro = 1.7411579291225172
+Ningun error. --- Umuro = 3.1689334236181144
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A60C0>
+Ningun error. --- Umuro = 2.3382089800614785
+Ningun error. --- Umuro = 1.6477943687904926
+Ningun error. --- Umuro = 1.7097203931284417
+Ningun error. --- Umuro = 1.691880437451729
+Ningun error. --- Umuro = 1.4543274188506543
+Ningun error. --- Umuro = 1.6334934705912836
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966C59C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96725C40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9671A7C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96737A00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9672B480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966CF740>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B5D80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96763AC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96729C00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9672B4C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B5640>
+Ningun error. --- Umuro = 1.6107765144011932
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9672B600>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96742780>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96737D00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9675ED00>
+Ningun error. --- Umuro = 1.4602932428865478
+Ningun error. --- Umuro = 1.4012664702358284
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9777C4C0>
+Ningun error. --- Umuro = 1.5741906329145776
+Ningun error. --- Umuro = 2.3185380780941367
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9678B2C0>
+Ningun error. --- Umuro = 1.5672577284980413
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9678B080>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97808340>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F967377C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9779E300>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9678BA80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97857600>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978364C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97810D00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97818500>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97886EC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97800F00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97802D00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97874B40>
+Ningun error. --- Umuro = 2.2619658954787325
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9778BE00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977B9180>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C8B00>
+Ningun error. --- Umuro = 2.497423245069349
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98890D40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C7940>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98952080>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C7B00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977A3800>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977A3D40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9777FB00>
+Ningun error. --- Umuro = 2.662156221897752
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988C7640>
+Ningun error. --- Umuro = 3.844914046928629
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98890840>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029FA0888C40>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    8882.797   TIME= 16:39:29
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 29811 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     36740
+ MAXIMUM ELEMENT NUMBER     =     29849
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     29849 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              29849             38             0         0.13 %
+  Parallel Deviation        29849              0             0         0.00 %
+  Maximum Angle             29849              0             0         0.00 %
+  Jacobian Ratio            29849              3             0         0.01 %
+  Warping Factor            29849              0             0         0.00 %
+
+  Any                       29849             38             0         0.13 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    8885.297   TIME= 16:39:32
+ Shape testing revealed that 38 of the 29849 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029FA0899A40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029FA18BC7C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029FA08A3240>
+Ningun error. --- Umuro = 4.000465103195499
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    8994.062   TIME= 16:41:04
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    8995.188   TIME= 16:41:06
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 27588 HEXAHEDRA AND 0 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     33980
+ MAXIMUM ELEMENT NUMBER     =     27588
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     27588 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              27588             76             0         0.28 %
+  Parallel Deviation        27588             19             0         0.07 %
+  Maximum Angle             27588              0             0         0.00 %
+  Jacobian Ratio            27588             57             0         0.21 %
+  Warping Factor            27588              0             0         0.00 %
+
+  Any                       27588             95             0         0.34 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    8995.859   TIME= 16:41:06
+ Shape testing revealed that 95 of the 27588 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029FA18CF100>
+Ningun error. --- Umuro = 1.430925613270833
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C906CC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98882840>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F978002C0>
+Ningun error. --- Umuro = 1.6975737381211085
+Ningun error. --- Umuro = 1.756457179078358
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9679DFC0>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    9297.969   TIME= 16:45:59
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    9299.938   TIME= 16:46:01
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 34485 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     41880
+ MAXIMUM ELEMENT NUMBER     =     34523
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     34523 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              34523             95             0         0.28 %
+  Parallel Deviation        34523              0             0         0.00 %
+  Maximum Angle             34523              0             0         0.00 %
+  Jacobian Ratio            34523             19             0         0.06 %
+  Warping Factor            34523              0             0         0.00 %
+
+  Any                       34523             95             0         0.28 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    9300.812   TIME= 16:46:02
+ Shape testing revealed that 95 of the 34523 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F96780740>
+Ningun error. --- Umuro = 2.9769736909772617
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9679D2C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966AF840>
+Ningun error. --- Umuro = 1.6390856242299026
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F977C1780>
+Ningun error. --- Umuro = 1.4334963069741828
+Ningun error. --- Umuro = 1.5783105695628226
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9675B8C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98916B00>
+Ningun error. --- Umuro = 1.7001422517306857
+Ningun error. --- Umuro = 1.665851944400655
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =    9873.781   TIME= 16:55:08
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =    9876.375   TIME= 16:55:10
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 47348 HEXAHEDRA AND 228 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     55700
+ MAXIMUM ELEMENT NUMBER     =     47576
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     47576 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              47576            171             0         0.36 %
+  Parallel Deviation        47576              0             0         0.00 %
+  Maximum Angle             47576            146             0         0.31 %
+  Jacobian Ratio            47576              0             0         0.00 %
+  Warping Factor            47576              0             0         0.00 %
+
+  Any                       47576            190             0         0.40 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =    9877.547   TIME= 16:55:12
+ Shape testing revealed that 190 of the 47576 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F96728EC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9777CFC0>
+Ningun error. --- Umuro = 3.823554186255509
+Ningun error. --- Umuro = 1.5860781303460585
+Ningun error. --- Umuro = 3.4840930594697093
+Ningun error. --- Umuro = 4.135080356350144
+Ningun error. --- Umuro = 3.104568433345862
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97794B40>
+Ningun error. --- Umuro = 1.6312257431910389
+Ningun error. --- Umuro = 3.015488765887703
+Ningun error. --- Umuro = 3.4371517269593976
+Ningun error. --- Umuro = 1.635636504121377
+Ningun error. --- Umuro = 3.8886078051742463
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F967422C0>
+Ningun error. --- Umuro = 1.7210754243906623
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966A5980>
+Ningun error. --- Umuro = 1.683449153873343
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F967430C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9668EE80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96699A80>
+Ningun error. --- Umuro = 1.534201168174657
+Ningun error. --- Umuro = 2.6726463023163793
+Ningun error. --- Umuro = 3.908243889751689
+Ningun error. --- Umuro = 1.4719995671217891
+Ningun error. --- Umuro = 3.1171474242515727
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B5B00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F95498F80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96695640>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9786D580>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9786D540>
+Ningun error. --- Umuro = 1.5508185008732913
+Ningun error. --- Umuro = 1.523407754894001
+Ningun error. --- Umuro = 2.34615398170515
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988A0F80>
+Ningun error. --- Umuro = 1.621238595481423
+Ningun error. --- Umuro = 1.5048897726321064
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988AE840>
+Ningun error. --- Umuro = 1.5562051002980615
+Ningun error. --- Umuro = 1.370288255962736
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988AEC80>
+Ningun error. --- Umuro = 3.919319774255589
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029FFFFB2B80>
+Ningun error. --- Umuro = 3.866406888029402
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97850640>
+Ningun error. --- Umuro = 2.7842977642073663
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97877A80>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98936540>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97850640>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97877980>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F97870500>
+Ningun error. --- Umuro = 3.9523748325204044
+Ningun error. --- Umuro = 1.4267980351874556
+Ningun error. --- Umuro = 3.9228871359382156
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98967B00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C923980>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B3B40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C907080>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9892B480>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98901140>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C90BD40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988FB6C0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C907400>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98959E40>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F9C8FC440>
+Ningun error. --- Umuro = 1.3752076142762022
+Ningun error. --- Umuro = 3.5142762220628367
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029FA18B6B40>
+Ningun error. --- Umuro = 2.4338205019763617
+Ningun error. --- Umuro = 1.5535455295334144
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98957500>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F988DD500>
+Ningun error. --- Umuro = 1.7040243569878424
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96681580>
+Ningun error. --- Umuro = 1.4746590539250282
+Ningun error. --- Umuro = 1.6871158181488002
+Ningun error. --- Umuro = 1.4573672361888226
+Ningun error. --- Umuro = 1.6824084480877568
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =   13436.016   TIME= 17:50:53
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =   13437.297   TIME= 17:50:54
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 28025 HEXAHEDRA AND 38 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     34620
+ MAXIMUM ELEMENT NUMBER     =     28063
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     28063 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              28063             38             0         0.14 %
+  Parallel Deviation        28063              0             0         0.00 %
+  Maximum Angle             28063              0             0         0.00 %
+  Jacobian Ratio            28063              0             0         0.00 %
+  Warping Factor            28063              0             0         0.00 %
+
+  Any                       28063             38             0         0.14 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =   13438.031   TIME= 17:50:55
+ Shape testing revealed that 38 of the 28063 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F966A3E00>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966B0240>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96699D00>
+Ningun error. --- Umuro = 1.7144606506590734
+Ningun error. --- Umuro = 1.6919891564118805
+Ningun error. --- Umuro = 3.5042705276953985
+Ningun error. --- Umuro = 1.544020343995994
+Ningun error. --- Umuro = 1.607853073510709
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96726400>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F98916AC0>
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F96728500>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+GENERATE NODES AND ELEMENTS IN VOLUME      1
+
+ *** ERROR ***                           CP =   13894.359   TIME= 17:58:18
+ An error occurred during sweeping while meshing area 38.  Change        
+ element sizing parameters (ESIZE, LESIZE, etc.), or mesh this area      
+ manually (AMESH or AMAP) then try the VSWE command again.  The VSWE     
+ command is ignored.                                                     
+
+ *** WARNING ***                         CP =   13895.688   TIME= 17:58:20
+ Internal error copying one area mesh to another area.  The VSWE command 
+ is ignored.                                                             
+ 
+        SWEEPING VOLUME 1 FROM AREA 38 TO AREA 1
+        VOLUME 1 MESHED WITH 31882 HEXAHEDRA AND 342 WEDGES
+
+ Volume Sweeping Complete 
+
+ The Following Volumes Were Successfully Swept
+     1
+
+ MAXIMUM NODE NUMBER        =     39300
+ MAXIMUM ELEMENT NUMBER     =     32224
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count     32224 SOLID70   |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio              32224            285             0         0.88 %
+  Parallel Deviation        32224              0             0         0.00 %
+  Maximum Angle             32224            285             0         0.88 %
+  Jacobian Ratio            32224              0             0         0.00 %
+  Warping Factor            32224              0             0         0.00 %
+
+  Any                       32224            285             0         0.88 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***                         CP =   13896.406   TIME= 17:58:20
+ Shape testing revealed that 285 of the 32224 new or modified elements   
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
+<traceback object at 0x0000029F96746E00>
+Ningun error. --- Umuro = 4.004791393562808
+Falla --- Umuro = 50
+<class 'ZeroDivisionError'>
+division by zero
+<traceback object at 0x0000029F966C8700>
+Falla --- Umuro = 50
+<class 'ansys.mapdl.core.errors.MapdlExitedError'>
+MAPDL server connection terminated
+<traceback object at 0x0000029F9671ED40>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F966A3040>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9673A580>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96749040>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9671E900>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96728880>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9671D7C0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9675B400>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96763240>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9672B340>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9672BB00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9672AA40>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96756A80>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F988E6040>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96779100>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F966CF440>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9677BE00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96783EC0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9676FF00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F977C1900>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97849100>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96796BC0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97842CC0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96796C00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9679D840>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9785BA00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97818E00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F967800C0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9779E780>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97800280>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F977A0280>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F977B1D00>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9779FE40>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97782B40>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F9777F940>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F967805C0>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F97886900>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96725C40>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96765840>
+Falla --- Umuro = 50
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x0000029F96728080>
