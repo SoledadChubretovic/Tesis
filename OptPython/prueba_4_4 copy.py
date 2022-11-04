@@ -24,7 +24,7 @@ import numpy as np
 from ansys.mapdl.core import launch_mapdl
 mapdl = launch_mapdl()
 
-# %% CALCULO TERMICO LADRILLO
+##### CALCULO TERMICO LADRILLO
 
 
 x = [
@@ -76,7 +76,7 @@ matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000  # m
 # Thermal parameters
 λ_clay = x[_λ_pos] / 100  # W/mK
 
-elemento = [0.006]
+elemento = [0.002]
 
 for elefini in elemento:
     print("----------------------------------")
@@ -94,9 +94,9 @@ for elefini in elemento:
 
     cavities = mapdl.asba(brick_perimeter, 'all')
     mapdl.allsel()
-    mapdl.aplot(show_area_numbering=True)
+    #mapdl.aplot(show_area_numbering=True)
     mapdl.vext(cavities, dz=DIM_Z)  # m
-    mapdl.vplot(show_area_numbering=True)
+    #mapdl.vplot(show_area_numbering=True)
 
     ###### ASIGNACION DE ATRIBUTOS ######
 
@@ -120,7 +120,7 @@ for elefini in elemento:
     mapdl.mopt("expnd", 3)
     mapdl.mopt("trans", 1.5)
     mapdl.vmesh("all")
-    mapdl.eplot()
+    #mapdl.eplot()
 
     ###### CONDICIONES DE BORDE DOF CONSTRAINS ######
 
@@ -141,7 +141,7 @@ for elefini in elemento:
     # POST-PROCESSING
     mapdl.post1()
     mapdl.set("last", "last")
-    mapdl.post_processing.plot_nodal_temperature()
+    #mapdl.post_processing.plot_nodal_temperature()
 
     ###### FLUJO DE CALOR ######
 
