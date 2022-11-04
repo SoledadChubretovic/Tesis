@@ -28,8 +28,8 @@ from k_constants import (
 )
 import time
 import numpy as np
-from ansys.mapdl.core import launch_mapdl
-mapdl = launch_mapdl()
+#from ansys.mapdl.core import launch_mapdl
+#mapdl = launch_mapdl()
 
 ##### CALCULO TERMICO LADRILLO
 start = time.time()
@@ -144,9 +144,9 @@ mapdl.mopt("vmesh", "default")
 mapdl.esize(element_size)
 # permit that elements expand when advancing to the interior of the volume
 # guide the mesh froma  fine mesh on the boundry to a coarse mesh on the exterior
-mapdl.mopt("expnd", 3)
+#mapdl.mopt("expnd", 3)
 # controlling mesh transitioning
-mapdl.mopt("trans", 1.5) #
+#mapdl.mopt("trans", 1.5) #
 # mesh all volumes (in this case we have only one)
 mapdl.vmesh("all")
 #mapdl.eplot() # plot meshed volume
@@ -238,9 +238,10 @@ print(U_muro)
 # convection and radiation in cavities is consider in H paramter from ISO6946
 # iterations are needed because H parameter depends of cavity temperature
 # wich also varies with H value (recursive)
-# 3 iterations is enough  to converge in a valid result
+# 3 iterations are enough to converge in a valid result
 iteracion = 0
 while iteracion < 3:
+    
     print(iteracion)
     # calculus of mean temperature of each cavity
     # areas_convection: list with all index for inner areas
@@ -324,60 +325,65 @@ while iteracion < 3:
     # plot brick with temperatures
     # mapdl.post_processing.plot_nodal_temperature()
 
-    # calculate heat flux and U_value (wall thermal transmitance)
+    iteracion = iteracion + 1
 
-    # cold area (area with 18C degrees forced)
-    mapdl.set("last", "last")
-    mapdl.asel("S", vmin = cold_area_index)
-    nodes = mapdl.nsla()
-    # first node of cold area (minimum index)
-    min_nodenum_cold = int(mapdl.get("min_nodenum_cold", "node", "0", "num", "min"))
-    # last node of cold area (maximum index)
-    max_nodenum_cold = int(mapdl.get("max_nodenum_cold", "node", "0", "num", "max"))
-    # number of selected nodes (all nodes of cold area)
-    nb_selected_nodes_cold = mapdl.mesh.n_node 
+# plot brick with temperatures
+# mapdl.post_processing.plot_nodal_temperature()
 
-    # fcold is a vector that stores the thermal flux in y axis for all nodes in cold area
-    j = 0
-    fcold = np.zeros(nb_selected_nodes_cold)
-    for i in range(min_nodenum_cold, max_nodenum_cold + 1):
-        fcold[j] = mapdl.get("fcold", "node", i, "tf", "y")
-        j = j + 1
-    # mean flux in cold area in W/m2
-    fcold = sum(abs(fcold))/len(fcold)
+# calculate heat flux and U_value (wall thermal transmitance)
 
-    # hot area (area with 30C degrees forced)
-    mapdl.set("last", "last")
-    mapdl.asel("S", vmin = hot_area_index)
-    nodes = mapdl.nsla()
-    # first node of hot area (minimum index)
-    min_nodenum_hot = int(mapdl.get("min_nodenum_hot", "node", "0", "num", "min"))
-    # las node of hot area (maximum index)
-    max_nodenum_hot = int(mapdl.get("max_nodenum_hot", "node", "0", "num", "max"))
-    # number of selected nodes (all nodes of hot area)
-    nb_selected_nodes_hot = mapdl.mesh.n_node  # numero de nodos seleccionados
+# cold area (area with 18C degrees forced)
+mapdl.set("last", "last")
+mapdl.asel("S", vmin = cold_area_index)
+nodes = mapdl.nsla()
+# first node of cold area (minimum index)
+min_nodenum_cold = int(mapdl.get("min_nodenum_cold", "node", "0", "num", "min"))
+# last node of cold area (maximum index)
+max_nodenum_cold = int(mapdl.get("max_nodenum_cold", "node", "0", "num", "max"))
+# number of selected nodes (all nodes of cold area)
+nb_selected_nodes_cold = mapdl.mesh.n_node 
 
-    # fhot is a vector that stores the thermal flux in y axis for all nodes in hot area
-    j = 0
-    fhot = np.zeros(nb_selected_nodes_hot)
-    for i in range(min_nodenum_hot, max_nodenum_hot + 1):
-        fhot[j] = mapdl.get("fhot", "node", i, "tf", "y")
-        j = j + 1
-    # mean flux in hot area in W/m2
-    fhot = sum(abs(fhot)) / len(fhot)
+# fcold is a vector that stores the thermal flux in y axis for all nodes in cold area
+j = 0
+fcold = np.zeros(nb_selected_nodes_cold)
+for i in range(min_nodenum_cold, max_nodenum_cold + 1):
+    fcold[j] = mapdl.get("fcold", "node", i, "tf", "y")
+    j = j + 1
+# mean flux in cold area in W/m2
+fcold = sum(abs(fcold))/len(fcold)
 
-    # heat flux per area in y axis in W/m2
-    flux_area = (fcold + fhot)/2  # W/m2
+# hot area (area with 30C degrees forced)
+mapdl.set("last", "last")
+mapdl.asel("S", vmin = hot_area_index)
+nodes = mapdl.nsla()
+# first node of hot area (minimum index)
+min_nodenum_hot = int(mapdl.get("min_nodenum_hot", "node", "0", "num", "min"))
+# las node of hot area (maximum index)
+max_nodenum_hot = int(mapdl.get("max_nodenum_hot", "node", "0", "num", "max"))
+# number of selected nodes (all nodes of hot area)
+nb_selected_nodes_hot = mapdl.mesh.n_node  # numero de nodos seleccionados
 
-    # equivalent thermal conductivity in W/mK
-    λeq = flux_area * b[3] / (Thot - Tcold)  # W/mK
+# fhot is a vector that stores the thermal flux in y axis for all nodes in hot area
+j = 0
+fhot = np.zeros(nb_selected_nodes_hot)
+for i in range(min_nodenum_hot, max_nodenum_hot + 1):
+    fhot[j] = mapdl.get("fhot", "node", i, "tf", "y")
+    j = j + 1
+# mean flux in hot area in W/m2
+fhot = sum(abs(fhot)) / len(fhot)
 
-    # wall thermal conductance in W/m2K
-    C_muro = (prop_ladrillo * λeq + prop_mort * λ_glue_mortar) / b[3]  # W/m2K
-    # wall thermal transmitance in W/m2K
-    U_muro = 1 / (RsiRse + 1 / C_muro)  # W/m2K
+# heat flux per area in y axis in W/m2
+flux_area = (fcold + fhot)/2  # W/m2
 
-    print(U_muro)
+# equivalent thermal conductivity in W/mK
+λeq = flux_area * b[3] / (Thot - Tcold)  # W/mK
+
+# wall thermal conductance in W/m2K
+C_muro = (prop_ladrillo * λeq + prop_mort * λ_glue_mortar) / b[3]  # W/m2K
+# wall thermal transmitance in W/m2K
+U_muro = 1 / (RsiRse + 1 / C_muro)  # W/m2K
+
+print(U_muro)
 
 end = time.time()
 print("Time: ", (end-start), "s")
