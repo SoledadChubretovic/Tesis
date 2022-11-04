@@ -3,7 +3,7 @@
 
 # number of cavities per row in the brick
 # each entry is the number per row
-# ie: [4, 3, 4] or [3, 3, 3]
+# ie: [4, 3, 4] or [3, 3, 3, 3, 3]
 CAVITIES_PER_ROW = [4, 4, 4, 4]
 
 # total amount of cavities in the brick
@@ -44,8 +44,34 @@ l_MAX = L - 2 * min(CAVITIES_PER_ROW) * T_MIN # mm
 # setting all the other cavities and internal walls to t_min (minimum value)
 w_MAX = W2_MAX - 2 * len(CAVITIES_PER_ROW) * T_MIN # mm
 
-# Btz constant
+# Stefan-Boltzmann constant
 BTZ = 5.67e-8 #W/m2K4
 
-# RADiation inside the cavities
+# Radiation fator inside the cavities: emissivity of surfaces
+# air radiation emissivity form literature
 RAD = 0.83
+
+# Radiation factor for inner and outer faces of a wall
+# based NCh853
+RsiRse = 0.17  # m2K/W
+
+# thermal conductivity of glue mortar (experimetal value) in W/mK
+λ_glue_mortar = 0.23  # W/mK
+
+# brick proportion in 1 square meter wall
+# this value is considered with 12 mm glue mortar between bricks
+# this value is sonsiderad for the given L and H
+prop_ladrillo = 0.84
+# glue mortar proportion in 1 quare meter wall
+prop_mort = 1 - prop_ladrillo
+
+# cold area index
+# area of the brick that 18 celcius degrees temperature is applied
+cold_area_index = 2
+
+# hot area index
+# area of the brick that 30 celcius degrees temperature is applied
+hot_area_index = 4
+
+# finite element size
+element_size = 0.003
