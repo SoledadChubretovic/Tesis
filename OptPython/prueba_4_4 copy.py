@@ -87,8 +87,6 @@ matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000  # m
 # thermal conductivity of the clay
 λ_clay = x[_λ_pos] / 100  # W/mK
 
-print("----------------------------------")
-
 # if there is anything in ANSYS model, finish and clear
 mapdl.finish()
 mapdl.clear()
@@ -136,10 +134,9 @@ mapdl.et(Id_ladrillo, "Solid70")
 mapdl.vatt(Id_arcilla, 0, Id_ladrillo)
 
 # mesh
+print(element_size)
 # mesh shape
 mapdl.mshape(1, "3D") # 1: tetrahedral shape
-# use main tetrahedral mesher
-mapdl.mopt("vmesh", "default")
 # size of finite elements
 mapdl.esize(element_size)
 # permit that elements expand when advancing to the interior of the volume
@@ -148,6 +145,8 @@ mapdl.esize(element_size)
 # controlling mesh transitioning
 #mapdl.mopt("trans", 1.5) #
 # mesh all volumes (in this case we have only one)
+# use main tetrahedral mesher
+mapdl.mopt("vmesh", "default")
 mapdl.vmesh("all")
 #mapdl.eplot() # plot meshed volume
 
@@ -241,7 +240,7 @@ print(U_muro)
 # 3 iterations are enough to converge in a valid result
 iteracion = 0
 while iteracion < 3:
-    
+
     print(iteracion)
     # calculus of mean temperature of each cavity
     # areas_convection: list with all index for inner areas
