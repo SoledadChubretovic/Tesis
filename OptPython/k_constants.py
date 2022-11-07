@@ -1,3 +1,4 @@
+#%% CONSTANTS
 # we distinguish between L and l or W and w in our notation
 # as each one represents different things
 
@@ -74,4 +75,5 @@ cold_area_index = 2
 hot_area_index = 4
 
 # finite element size
-element_size = 0.0015
+element_size = 0.003
+# %%

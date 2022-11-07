@@ -3,11 +3,9 @@ from functions import (
     generate_cavitiy_ansys_parameters
 )
 from k_constants import (
-    CAVITIES_PER_ROW,
     N_CAVITIES,
     N_VARIABLES,
     L,
-    H,
     DIM_Z,
     T_MIN,
     W2_MIN,
@@ -28,8 +26,8 @@ from k_constants import (
 )
 import time
 import numpy as np
-#from ansys.mapdl.core import launch_mapdl
-#mapdl = launch_mapdl()
+# from ansys.mapdl.core import launch_mapdl
+# mapdl = launch_mapdl()
 
 ##### CALCULO TERMICO LADRILLO
 start = time.time()
@@ -94,6 +92,9 @@ mapdl.clear()
 # PRE-PROCESSING
 mapdl.prep7()
 
+# define title for analysis
+mapdl.title("Tesis")
+
 # creates all areas of the brick (perimeter and cavities)
 brick_perimeter = mapdl.blc5(*b)
 for row in matrix:
@@ -107,13 +108,14 @@ cavities = mapdl.asba(brick_perimeter, 'all')
 
 # plot final area with its index
 mapdl.allsel()
-#mapdl.aplot(show_area_numbering=True)
+# mapdl.aplot(show_area_numbering=True)
+
 
 # extrude area to create a volume
 mapdl.vext(cavities, dz = DIM_Z)  # m
 
 # plot volume showing index numbers of each area
-#mapdl.vplot(show_area_numbering=True)
+mapdl.vplot(show_area_numbering = True)
 
 # material properties 
 # thermal conductivity for isotropic material in W/mK
@@ -129,9 +131,12 @@ mapdl.mp("KZZ", Id_arcilla, λ_clay) # W/mK
 Id_ladrillo = 1
 mapdl.et(Id_ladrillo, "Solid70")
 
+# real constant
+Id_real_constant = 1
+mapdl.r(Id_real_constant,0)
+
 # asigne attributes to the volume
-# real constat = 0
-mapdl.vatt(Id_arcilla, 0, Id_ladrillo)
+mapdl.vatt(Id_arcilla, Id_real_constant, Id_ladrillo)
 
 # mesh
 print(element_size)
@@ -170,7 +175,6 @@ out = mapdl.finish()
 # POST-PROCESSING
 # obtain results
 mapdl.post1()
-mapdl.set("last", "last")
 
 # plot brick with temperatures
 # mapdl.post_processing.plot_nodal_temperature()
@@ -233,13 +237,14 @@ print(U_muro)
 #mapdl.post_processing.plot_nodal_temperature()
 
 # convection iterations
-# until here the program considers only convection
-# convection and radiation in cavities is consider in H paramter from ISO6946
+# until here the program considers only conduction
+# convection and radiation in cavities are considered in H paramter from ISO6946
 # iterations are needed because H parameter depends of cavity temperature
 # wich also varies with H value (recursive)
 # 3 iterations are enough to converge in a valid result
+
 iteracion = 0
-while iteracion < 3:
+while iteracion < 1:
 
     print(iteracion)
     # calculus of mean temperature of each cavity
@@ -249,6 +254,7 @@ while iteracion < 3:
         areas_convection = np.append(areas_convection, i)
     for i in range(N_CAVITIES + 3, N_CAVITIES * 4 + 7):
         areas_convection = np.append(areas_convection, i)
+
 
     T_conv = np.zeros(len(areas_convection))
     for idx, i in enumerate(areas_convection):
@@ -309,7 +315,15 @@ while iteracion < 3:
         # select areas of a cavity
         mapdl.asel("S", vmin = areas_convection[cuadrupleta[0]], vmax = areas_convection[cuadrupleta[-1]])
         mapdl.nsla()  # select nodes in selected areas
-        mapdl.sf("all", "conv", H_conv[j], Tm_conv[j])
+        # first node of cold area (minimum index)
+        min_nodenum = int(mapdl.get("min_nodenum", "node", "0", "num", "min"))
+        # last node of cold area (maximum index)
+        max_nodenum = int(mapdl.get("max_nodenum", "node", "0", "num", "max"))
+        # number of selected nodes (all nodes of cold area)
+        nb_selected_nodes = mapdl.mesh.n_node 
+        # asign H parameter and Tm (mean temperature) to each selected node
+        for node in range(min_nodenum, max_nodenum + 1):
+            mapdl.sf(node, "conv", H_conv[j], Tm_conv[j]) ##### AQUI TIENE QUE ESTAR EL ERROR
         j = j + 1
     out = mapdl.allsel()
 
@@ -386,5 +400,18 @@ print(U_muro)
 
 end = time.time()
 print("Time: ", (end-start), "s")
+
+#%%
+
+#%%
+mapdl.set("last", "last")
+mapdl.asel("s",8)
+mapdl.nsla()
+min = mapdl.get("min", "node", "0", "num", "min")
+max = mapdl.get("max", "node", "0", "num", "max")
+
+#%%
+mapdl.sflist("min","conv")
+#mapdl.sflist("max","conv")
 
 # %%
