@@ -75,5 +75,5 @@ cold_area_index = 2
 hot_area_index = 4
 
 # finite element size
-element_size = 0.003
+element_size = 0.002
 # %%
