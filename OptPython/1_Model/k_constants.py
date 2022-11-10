@@ -40,7 +40,6 @@ LAMBDA_CLAY100_MAX = 62 # W/mK
 # setting all the other cavities and internal walls to t_min (minimum value)
 l_MAX = L - 2 * min(CAVITIES_PER_ROW) * T_MIN # mm
 
-
 # maximum width for cavities in mm
 # setting all the other cavities and internal walls to t_min (minimum value)
 w_MAX = W2_MAX - 2 * len(CAVITIES_PER_ROW) * T_MIN # mm
@@ -76,4 +75,24 @@ hot_area_index = 4
 
 # finite element size
 element_size = 0.009
+
+# number of constraints
+N_CONSTRAINTS = 7
+
+# number of objectives
+N_OBJECTIVES = 2
+
+# normative compression resistance
+# in chile bricks have to be 10 MPA or higher
+G2 = 10
+
+# number of generation for termination criterion
+N_GENERATION = 30
+
+# population size
+POPULATION_SIZE = 100
+
+# number of offsprings
+N_OFFSPRINGS = 199
+
 # %%

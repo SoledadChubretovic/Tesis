@@ -146,9 +146,9 @@ mapdl.mshape(1, "3D") # 1: tetrahedral shape
 mapdl.esize(element_size)
 # permit that elements expand when advancing to the interior of the volume
 # guide the mesh froma  fine mesh on the boundry to a coarse mesh on the exterior
-#mapdl.mopt("expnd", 3)
+# mapdl.mopt("expnd", 1.2)
 # controlling mesh transitioning
-#mapdl.mopt("trans", 1.5) #
+# mapdl.mopt("trans", 1.2) #
 # mesh all volumes (in this case we have only one)
 # use main tetrahedral mesher
 mapdl.mopt("vmesh", "default")
@@ -260,23 +260,6 @@ while iteracion < 3:
         mapdl.nsla("S", 1)  # select nodes from selected areas
         mapdl.sf("all", "conv", H_conv[i], Tm_conv[i])
 
-    # j = 0
-    # for i in range(0, N_CAVITIES):
-    #     # cuadrupleta stores the first index and last index of the 4 areas of a cavity
-    #     cuadrupleta = [i*4, i*4+3]
-    #     # select areas of a cavity
-    #     mapdl.asel("S", vmin = areas_convection[cuadrupleta[0]], vmax = areas_convection[cuadrupleta[-1]])
-    #     mapdl.nsla()  # select nodes in selected areas
-    #     # first node of cold area (minimum index)
-    #     min_nodenum = int(mapdl.get("min_nodenum", "node", "0", "num", "min"))
-    #     # last node of cold area (maximum index)
-    #     max_nodenum = int(mapdl.get("max_nodenum", "node", "0", "num", "max"))
-    #     # number of selected nodes (all nodes of cold area)
-    #     nb_selected_nodes = mapdl.mesh.n_node 
-    #     # asign H parameter and Tm (mean temperature) to each selected node
-    #     for node in range(min_nodenum, max_nodenum + 1):
-    #         mapdl.sf(node, "conv", H_conv[j], Tm_conv[j]) ##### AQUI TIENE QUE ESTAR EL ERROR
-    #     j = j + 1
     out = mapdl.allsel()
 
     # SOLVE

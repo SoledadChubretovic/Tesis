@@ -7,4 +7,3 @@ Mapdl(start_instance=True)
 print(mapdl)
 
 # %%
-# %%
