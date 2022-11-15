@@ -19,6 +19,7 @@ def li_index(row: int, col: int) -> int:
     index_start, _ = row_limits(row)
     return index_start + col
 
+# tabique stands for partition wall in spanish
 # returns thickness of the partition wall in y axis
 # all partitions walls have the same thickness in y direction
 # because the value w of all cavities is the same 

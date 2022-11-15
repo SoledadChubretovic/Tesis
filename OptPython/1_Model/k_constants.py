@@ -56,25 +56,30 @@ RAD = 0.83
 RsiRse = 0.17  # m2K/W
 
 # thermal conductivity of glue mortar (experimetal value) in W/mK
-λ_glue_mortar = 0.23  # W/mK
+λ_GLUE_MORTAR = 0.23  # W/mK
 
 # brick proportion in 1 square meter wall
 # this value is considered with 12 mm glue mortar between bricks
 # this value is sonsiderad for the given L and H
-prop_ladrillo = 0.84
+PROP_BRICK = 0.84
+
 # glue mortar proportion in 1 quare meter wall
-prop_mort = 1 - prop_ladrillo
+prop_mortar = 1 - PROP_BRICK
 
 # cold area index
 # area of the brick that 18 celcius degrees temperature is applied
-cold_area_index = 2
+COLD_AREA_INDEX = 2
 
 # hot area index
 # area of the brick that 30 celcius degrees temperature is applied
-hot_area_index = 4
+HOT_AREA_INDEX = 4
+
+# temperatures applied to generate heat flux
+T_HOT = 30 # degrees celcius
+T_COLD = 18 # degrees celcius
 
 # finite element size
-element_size = 0.009
+ELEMENT_SIZE = 0.009
 
 # number of constraints
 N_CONSTRAINTS = 7
@@ -94,5 +99,8 @@ POPULATION_SIZE = 100
 
 # number of offsprings
 N_OFFSPRINGS = 199
+
+# big number to assign to invalid geometries
+U_MURO_INVALID = 50
 
 # %%
