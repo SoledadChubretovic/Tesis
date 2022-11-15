@@ -82,7 +82,7 @@ T_COLD = 18 # degrees celcius
 ELEMENT_SIZE = 0.009
 
 # number of constraints
-N_CONSTRAINTS = 7
+N_CONSTRAINTS = 3
 
 # number of objectives
 N_OBJECTIVES = 2

@@ -1,3 +1,4 @@
+#%% TESIS
 #### NSGA II ####
 
 import numpy as np
@@ -250,3 +251,5 @@ plt.show()
 
 
 
+
+# %%

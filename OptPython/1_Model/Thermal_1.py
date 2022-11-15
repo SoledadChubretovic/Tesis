@@ -29,7 +29,6 @@ import numpy as np
 
 def ThermalAnalysis(b, matrix, λ_clay):
     try:
-        mapdl = Mapdl(start_instance=False)
         # thermal analysis of the brick
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
 
