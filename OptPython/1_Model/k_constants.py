@@ -88,17 +88,19 @@ N_CONSTRAINTS = 3
 N_OBJECTIVES = 2
 
 # normative compression resistance
-# in chile bricks have to be 10 MPA or higher
-G2 = 10
+# in chile bricks have to be grade G2 (11 MPa minimum)
+# most bricks are grade G1 (15 MPa minimum) so we set use this value
+# See NCh1928 and NCh169
+G2 = 15
 
 # number of generation for termination criterion
-N_GENERATION = 30
+N_GENERATION = 50
 
 # population size
-POPULATION_SIZE = 100
+POPULATION_SIZE = 50
 
 # number of offsprings
-N_OFFSPRINGS = 199
+N_OFFSPRINGS = 50
 
 # big number to assign to invalid geometries
 U_MURO_INVALID = 50

@@ -49,7 +49,7 @@ f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPytho
 f.close()
 
 #### IMPLEMENT THE PROBLEM ####
-    
+
 # number of variables, constrains and objective functions
 n_var = N_VARIABLES #number of variables (li,w,W,lambda_clay)
 n_ieq_constr = N_CONSTRAINTS #number of constraints
@@ -69,7 +69,7 @@ xu = np.append(xu, LAMBDA_CLAY100_MAX)  # mm
 
 # ElementwiseProblem evaluates one solution at a time
 class ConstrainedProblem(ElementwiseProblem):
-    
+
     def __init__(self, **kwargs):
         super().__init__(n_var = n_var,
                          n_obj = n_obj,

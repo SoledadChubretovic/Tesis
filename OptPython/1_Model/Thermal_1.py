@@ -21,14 +21,17 @@ from k_constants import (
 )
 
 import numpy as np
+import sys
 
 # start licence instance 
-# this is already done in OpenANSYS
-# from ansys.mapdl.core import launch_mapdl
-# mapdl = launch_mapdl()
+# this is already done in OpenAPDL
+
+from ansys.mapdl.core import launch_mapdl, Mapdl
+mapdl = launch_mapdl()
 
 def ThermalAnalysis(b, matrix, λ_clay):
     try:
+        mapdl = Mapdl(start_instance=False)
         # thermal analysis of the brick
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
 
@@ -113,7 +116,7 @@ def ThermalAnalysis(b, matrix, λ_clay):
         mapdl.asel("S", vmin = HOT_AREA_INDEX)
         mapdl.da("all", "temp", Thot)
         out = mapdl.allsel()
-
+        
         # SOLVE
         # solve model
         mapdl.run("/SOLU")
@@ -133,7 +136,7 @@ def ThermalAnalysis(b, matrix, λ_clay):
         # iterations are needed because H parameter depends of cavity temperature
         # which also varies with H value
         # in this case 3 iterations are enough to converge in a valid result
-
+  
         iteracion = 0
         while iteracion < 3:
 
@@ -281,16 +284,16 @@ def ThermalAnalysis(b, matrix, λ_clay):
         C_muro = (PROP_BRICK * λeq + prop_mortar * λ_GLUE_MORTAR) / b[3]  # W/m2K
         # wall thermal transmitance in W/m2K
         U_muro = 1 / (RsiRse + 1 / C_muro)  # W/m2K
-
         f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\Error.txt", "a")
-        f.write("Umuro = " + U_muro + "W/m2K" + "\n")
-        f.close
+        f.write("Umuro = " + str(U_muro) + " W/m2K" + "\n")
+        f.close()
     except:
         U_muro = U_MURO_INVALID
+        f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\Error.txt", "a")
         f.write("Fail --- " + " Error: " + "\n")
         for i in range(len(sys.exc_info())):
             f.write(str(sys.exc_info()[i]) + "\n")
-        f.colse()
+        f.close()
 
     return U_muro
 # %%
