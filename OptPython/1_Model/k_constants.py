@@ -97,7 +97,7 @@ G2 = 15
 N_GENERATION = 30
 
 # population size
-POPULATION_SIZE = 50
+POPULATION_SIZE = 10
 
 # number of offsprings
 N_OFFSPRINGS = 50
