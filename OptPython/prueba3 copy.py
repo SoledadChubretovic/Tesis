@@ -29,6 +29,11 @@ column_names = column_names + (["λ_clay [W/mK]"])
 
 #%%
 from tabulate import tabulate
-result_table = tabulate(table_data, tablefmt = "plain")
+result_table = tabulate(table_data, column_names)
 print(result_table)
+# %%
+results = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\OptPython_Log.txt", "w")
+results.write(result_table)
+results.close()
+
 # %%
