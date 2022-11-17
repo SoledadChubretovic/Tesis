@@ -1,4 +1,3 @@
-# %% ACTIVAR LICENCIA Y LIBRERIAS
 from functions import (
     generate_cavitiy_ansys_parameters
 )
@@ -296,4 +295,3 @@ def ThermalAnalysis(b, matrix, λ_clay):
         f.close()
 
     return U_muro
-# %%

@@ -94,10 +94,10 @@ N_OBJECTIVES = 2
 G2 = 15
 
 # number of generation for termination criterion
-N_GENERATION = 30
+N_GENERATION = 10
 
 # population size
-POPULATION_SIZE = 10
+POPULATION_SIZE = 50
 
 # number of offsprings
 N_OFFSPRINGS = 50
