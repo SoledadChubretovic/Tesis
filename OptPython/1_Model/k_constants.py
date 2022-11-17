@@ -94,7 +94,7 @@ N_OBJECTIVES = 2
 G2 = 15
 
 # number of generation for termination criterion
-N_GENERATION = 30
+N_GENERATION = 50
 
 # population size
 POPULATION_SIZE = 50

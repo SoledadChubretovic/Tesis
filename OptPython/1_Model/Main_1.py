@@ -229,7 +229,6 @@ for i in range(0,len(data1)):
 # column_names = column_names + (["λ_clay [W/mK]"])
 
 result_table = tabulate(table_data, tablefmt = "plain")
-print(result_table)
 
 # write table to results file
 results = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\OptPython_Log.txt", "w")
