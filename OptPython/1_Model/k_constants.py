@@ -79,7 +79,7 @@ T_HOT = 30 # degrees celcius
 T_COLD = 18 # degrees celcius
 
 # finite element size
-ELEMENT_SIZE = 0.009
+ELEMENT_SIZE = 0.004
 
 # number of constraints
 N_CONSTRAINTS = 3
