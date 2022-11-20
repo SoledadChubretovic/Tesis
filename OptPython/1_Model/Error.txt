@@ -43,1291 +43,756 @@ Umuro = 1.7213899867748728 W/m2K
 Umuro = 1.7558068690700785 W/m2K
 Umuro = 1.7220329582109135 W/m2K
 Umuro = 1.7323255063817333 W/m2K
-Fail ---  Error: 
-<class 'ansys.mapdl.core.errors.MapdlExitedError'>
-MAPDL server connection terminated
-<traceback object at 0x000002BA3DFB1180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF0DB40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFAE080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3DFFDB40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFA5F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E004DC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E00E4C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0091C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E00E180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3DFFDE00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E025700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E020240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0371C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E03AB80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E045280>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E03AD00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E04BD40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E047A00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E05C840>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E056540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E060240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E06AC80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E06E5C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E081880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E07B540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E08F380>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E08FD00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E081300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E08A080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E063980>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0374C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E047180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3DFC5CC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E02A340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E04E4C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E00E5C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E01E0C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E09D040>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E09DB80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0A3800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0A9CC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0184C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0A0100>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0C6D40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E081F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E037540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0FA040>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F14C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F5140>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F3640>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1105C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F7140>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0A3DC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E101AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E04B500>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE20A00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AC90080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E08FF00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E125CC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E111700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF81680>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFBE300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFB7340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFC7380>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFA5A80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF95900>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF84680>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF8B280>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3DFCB040>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF66200>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E06AB00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADE7A00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF6FB00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFA5E00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E08AE40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF55600>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF6D840>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF44C80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFAF300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEF2740>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE20400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF20E00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF40B40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEE2D40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF2DB80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADE7D00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEE2940>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF30400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E03A400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CED2900>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE945C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE4EE00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE706C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AC8E700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AC8E680>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE704C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE4C840>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF2E140>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE7BDC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE47180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE24480>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF2D0C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF663C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE37180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE52240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE31880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE44080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE48D80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE21C40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE10540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE37AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE1F640>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE24880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE20E40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE279C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEC14C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE28E40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE37080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF1DA00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE21B40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE2FF40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE02AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE202C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE27200>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEC1F40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE446C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0A04C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEBDCC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E108880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE25FC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE3CB40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE29C80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADA0D40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F52C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE3DAC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1102C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E037B40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE2C600>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E12C7C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE3DB80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ABFABC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0AB140>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E12C900>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0FAF00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1518C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE27E40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AC358C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADBC940>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE02E80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E191A80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E19BC40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADF3B80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE31CC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE20580>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE1FBC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE36B40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFB6A40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E163340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF44080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF8B040>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADBC940>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADD1500>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ADDA740>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3ABFA700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE23B80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E196700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E12C5C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AC37AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE27440>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E18EB40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F9C80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E110F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE5B300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AE212C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1B4800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1AA280>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE365C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1A9A80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1C18C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE31700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E23D300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E186240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1A07C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E110380>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E16DC00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E153440>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E24CA80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CFC7440>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E180A40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E18EE80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1A0580>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E28C880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E254580>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE48900>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1517C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E194EC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E111DC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE29480>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1B2440>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1C1340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1EC280>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E125EC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3AD0D3C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E22A640>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E156C40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E24CFC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1EEBC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E30DAC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E21E940>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E25C1C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E101F00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E191740>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CEBDE40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E194980>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF40C00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E254E80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1C1080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E194880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E230800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E0F1C00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF9CEC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E115E40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E30D9C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E276040>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E277C00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1DCE40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E25F7C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3BE29400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E267F00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E248240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E294FC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1517C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1E5C40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E301380>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE4E5C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E289AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2AC700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2488C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3174C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E235080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3AFC00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2D1F00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2CE5C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E224F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E258F40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2A6600>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2E28C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E33B700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E27BCC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2F9700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E16A1C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3F3D0F00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2408C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF79F40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E23D440>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3BEB80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3A96C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E27BAC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E191CC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2AD240>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1E5F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E179C40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3AC800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3F3D0380>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E205700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3BB340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E28CA40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E376E40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E254EC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3C1300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E39C640>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2A6F00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3F3D8300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E38E180>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E30BCC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E1EE880>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CE94080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2FE800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E175540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E300E80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E258D40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E29D540>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3B98C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3A9800>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E294EC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E32C700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3DA700>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3D6C00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3B8400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E235500>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3BBE80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CF797C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA404B1400>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E300140>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E39C080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA403D8100>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E292640>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3B8D00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3D5080>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E156C00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E33C500>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E04E580>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E25BFC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E16D780>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3F3CA840>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E252DC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3A6D40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA4046CE40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E2F9200>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA40431300>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA40490A40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E3B5EC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA403DF6C0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3CED7F80>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E25CC00>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E332340>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA4045DFC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA40428AC0>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA4048BE40>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E32D580>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA403DE280>
-Fail ---  Error: 
-<class 'OSError'>
-Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
-<traceback object at 0x000002BA3E385240>
+Umuro = 1.252348528221762 W/m2K
+Umuro = 1.685215546341984 W/m2K
+Umuro = 1.181031640362795 W/m2K
+Umuro = 1.798944668557661 W/m2K
+Umuro = 1.7746961787278386 W/m2K
+Umuro = 1.7296162831442166 W/m2K
+Umuro = 1.723850881114053 W/m2K
+Umuro = 1.715014885950495 W/m2K
+Umuro = 1.3614015465285425 W/m2K
+Umuro = 1.732578956107689 W/m2K
+Umuro = 1.6940573055950687 W/m2K
+Umuro = 1.2129343115336104 W/m2K
+Umuro = 1.7311439467563692 W/m2K
+Umuro = 1.7579634544768628 W/m2K
+Umuro = 1.7093417724013729 W/m2K
+Umuro = 1.7431957249266208 W/m2K
+Umuro = 1.252356906021476 W/m2K
+Umuro = 1.7254265245540603 W/m2K
+Umuro = 1.7258452465617666 W/m2K
+Umuro = 1.8575025291128604 W/m2K
+Umuro = 1.8538231366960038 W/m2K
+Umuro = 1.7698504342945194 W/m2K
+Umuro = 1.820863128094371 W/m2K
+Umuro = 1.7219458372162497 W/m2K
+Umuro = 1.728427694844866 W/m2K
+Umuro = 1.7149951510525028 W/m2K
+Umuro = 1.6840155882597978 W/m2K
+Umuro = 1.771869016792472 W/m2K
+Umuro = 1.7375494416332546 W/m2K
+Umuro = 1.7557424574238136 W/m2K
+Umuro = 1.8671615481357946 W/m2K
+Umuro = 1.8572015230319185 W/m2K
+Umuro = 1.8097145241599844 W/m2K
+Umuro = 1.7638777831604588 W/m2K
+Umuro = 1.722636137014672 W/m2K
+Umuro = 1.674975310557608 W/m2K
+Umuro = 1.726118538383948 W/m2K
+Umuro = 1.7574814714551084 W/m2K
+Umuro = 1.7177487784916539 W/m2K
+Umuro = 1.8046985735150467 W/m2K
+Umuro = 1.2835548469836313 W/m2K
+Umuro = 1.7691421505224212 W/m2K
+Umuro = 1.7508292550782991 W/m2K
+Umuro = 1.7242030438252616 W/m2K
+Umuro = 1.7318779221701712 W/m2K
+Umuro = 1.7033169648893804 W/m2K
+Umuro = 1.789848352765411 W/m2K
+Umuro = 1.7240079455578892 W/m2K
+Umuro = 1.7863052895341374 W/m2K
+Umuro = 1.730025429948392 W/m2K
+Umuro = 1.7923803330790988 W/m2K
+Umuro = 1.3626060209352289 W/m2K
+Umuro = 1.7360818430374123 W/m2K
+Umuro = 1.737301845955159 W/m2K
+Umuro = 1.7647200364888571 W/m2K
+Umuro = 1.744902877959642 W/m2K
+Umuro = 1.625980315532914 W/m2K
+Umuro = 1.7530297185776909 W/m2K
+Umuro = 1.7342278959754922 W/m2K
+Umuro = 1.8872497859652069 W/m2K
+Umuro = 1.7281820963718562 W/m2K
+Umuro = 1.3607224897034231 W/m2K
+Umuro = 1.7543641518305484 W/m2K
+Umuro = 1.8359672711502195 W/m2K
+Umuro = 1.7499743660427811 W/m2K
+Umuro = 1.8323036122378866 W/m2K
+Umuro = 1.718032856749602 W/m2K
+Umuro = 1.7384936103724757 W/m2K
+Umuro = 1.71517139787287 W/m2K
+Umuro = 1.6838364914396309 W/m2K
+Umuro = 1.6648354052350431 W/m2K
+Umuro = 1.79022047815816 W/m2K
+Umuro = 1.689267735842926 W/m2K
+Umuro = 1.6906101961846896 W/m2K
+Umuro = 1.7004196942940688 W/m2K
+Umuro = 1.7445961197460549 W/m2K
+Umuro = 1.6562035083384787 W/m2K
+Umuro = 1.1861323913074782 W/m2K
+Umuro = 1.7039142791438624 W/m2K
+Umuro = 1.7071935449357019 W/m2K
+Umuro = 1.7187637615177789 W/m2K
+Umuro = 1.1752023842380042 W/m2K
+Umuro = 1.823537456672889 W/m2K
+Umuro = 1.688654519725497 W/m2K
+Umuro = 1.7044953426045348 W/m2K
+Umuro = 1.801892979566447 W/m2K
+Umuro = 1.7221229053577782 W/m2K
+Umuro = 1.697039345930979 W/m2K
+Umuro = 1.721943379115548 W/m2K
+Umuro = 1.6931702336999164 W/m2K
+Umuro = 1.7326548086508629 W/m2K
+Umuro = 1.7477561409849836 W/m2K
+Umuro = 1.1691798954013337 W/m2K
+Umuro = 1.623783242940801 W/m2K
+Umuro = 1.817538799704277 W/m2K
+Umuro = 1.1823623963272636 W/m2K
+Umuro = 1.7222302729467678 W/m2K
+Umuro = 1.7185089972574117 W/m2K
+Umuro = 1.6901384626528384 W/m2K
+Umuro = 1.740534869013755 W/m2K
+Umuro = 1.84288197444197 W/m2K
+Umuro = 1.318904586837327 W/m2K
+Umuro = 1.2390542430128768 W/m2K
+Umuro = 1.33116987506468 W/m2K
+Umuro = 1.692417289149531 W/m2K
+Umuro = 1.2222108985933435 W/m2K
+Umuro = 1.203383567377851 W/m2K
+Umuro = 1.8220104355455302 W/m2K
+Umuro = 1.705479997096748 W/m2K
+Umuro = 1.20137382289521 W/m2K
+Umuro = 1.8447085460694048 W/m2K
+Umuro = 1.814982546204597 W/m2K
+Umuro = 1.6917180875356714 W/m2K
+Umuro = 1.286457417955312 W/m2K
+Umuro = 1.7798114172823718 W/m2K
+Umuro = 1.7043020840635512 W/m2K
+Umuro = 1.6440966259467866 W/m2K
+Umuro = 1.7507465368759176 W/m2K
+Umuro = 1.637026548529019 W/m2K
+Umuro = 1.1691633697332389 W/m2K
+Umuro = 1.7486750772958992 W/m2K
+Umuro = 1.758326096447564 W/m2K
+Umuro = 1.6758528475837953 W/m2K
+Umuro = 1.7772194289224883 W/m2K
+Umuro = 1.715648290476929 W/m2K
+Umuro = 1.6858379242087707 W/m2K
+Umuro = 1.6857680388897138 W/m2K
+Umuro = 1.3150791280954817 W/m2K
+Umuro = 1.644245574275859 W/m2K
+Umuro = 1.3179147675181524 W/m2K
+Umuro = 1.7710795829402122 W/m2K
+Umuro = 1.673507447749007 W/m2K
+Umuro = 1.6455426959127353 W/m2K
+Umuro = 1.7229893087896642 W/m2K
+Umuro = 1.3551106336235352 W/m2K
+Umuro = 1.686540613169568 W/m2K
+Umuro = 1.742249441310564 W/m2K
+Umuro = 1.1672976856718371 W/m2K
+Umuro = 1.7810776747398038 W/m2K
+Umuro = 1.7212844707076278 W/m2K
+Umuro = 1.3487338209625659 W/m2K
+Umuro = 1.7521298324040655 W/m2K
+Umuro = 1.8523880262439685 W/m2K
+Umuro = 1.6268032844819706 W/m2K
+Umuro = 1.724501526171 W/m2K
+Umuro = 1.2165146176565396 W/m2K
+Umuro = 1.375585804712416 W/m2K
+Umuro = 1.6463375876616686 W/m2K
+Umuro = 1.2147009692346955 W/m2K
+Umuro = 1.86671843227383 W/m2K
+Umuro = 1.8244465065044329 W/m2K
+Umuro = 1.8121696878434554 W/m2K
+Umuro = 1.2177955916016505 W/m2K
+Umuro = 1.3391810636802859 W/m2K
+Umuro = 1.202681210805297 W/m2K
+Umuro = 1.7947402238637766 W/m2K
+Umuro = 1.7403009438734587 W/m2K
+Umuro = 1.6910940846406726 W/m2K
+Umuro = 1.2679024694724366 W/m2K
+Umuro = 1.2633213362817814 W/m2K
+Umuro = 1.16399021756148 W/m2K
+Umuro = 1.197359769694699 W/m2K
+Umuro = 1.8296959153581436 W/m2K
+Umuro = 1.162594893652571 W/m2K
+Umuro = 1.301383934657947 W/m2K
+Umuro = 1.1833138640812415 W/m2K
+Umuro = 1.637334205877692 W/m2K
+Umuro = 1.312933048676933 W/m2K
+Umuro = 1.171993110350804 W/m2K
+Umuro = 1.178622675281585 W/m2K
+Umuro = 1.2963554474586667 W/m2K
+Umuro = 1.6904789203112334 W/m2K
+Umuro = 1.1718233420188133 W/m2K
+Umuro = 1.6438714174254354 W/m2K
+Umuro = 1.2959188274315923 W/m2K
+Umuro = 1.2526363942166667 W/m2K
+Umuro = 1.632006256153649 W/m2K
+Umuro = 1.6829742892274289 W/m2K
+Umuro = 1.1777619012213179 W/m2K
+Umuro = 1.2723522046998157 W/m2K
+Umuro = 1.9242213615053174 W/m2K
+Umuro = 1.7356988356428793 W/m2K
+Umuro = 1.7162518380855818 W/m2K
+Umuro = 1.653624670347462 W/m2K
+Umuro = 1.3309590523458004 W/m2K
+Umuro = 1.347207380141479 W/m2K
+Umuro = 1.6083325873319787 W/m2K
+Umuro = 1.194729712590723 W/m2K
+Umuro = 1.1938813252737237 W/m2K
+Umuro = 1.7330925679576874 W/m2K
+Umuro = 1.3277821796579 W/m2K
+Umuro = 1.1791439457056638 W/m2K
+Umuro = 1.7794020332347271 W/m2K
+Umuro = 1.188090503666078 W/m2K
+Umuro = 1.3104638588476343 W/m2K
+Umuro = 1.2225342642346615 W/m2K
+Umuro = 1.1574424782471047 W/m2K
+Umuro = 1.9395977491260141 W/m2K
+Umuro = 1.7953636019397048 W/m2K
+Umuro = 1.3183647159227458 W/m2K
+Umuro = 1.166626233645285 W/m2K
+Umuro = 1.3590992598558027 W/m2K
+Umuro = 1.7191087942299823 W/m2K
+Umuro = 1.165394029625913 W/m2K
+Umuro = 1.2328441979047973 W/m2K
+Umuro = 1.3032978069263788 W/m2K
+Umuro = 1.2211637320420077 W/m2K
+Umuro = 1.655436916517028 W/m2K
+Umuro = 1.717159791448714 W/m2K
+Umuro = 1.6447776888905181 W/m2K
+Umuro = 1.2598345089165075 W/m2K
+Umuro = 1.633911523611976 W/m2K
+Umuro = 1.243627688026131 W/m2K
+Umuro = 1.6119045273176495 W/m2K
+Umuro = 1.5906583922474788 W/m2K
+Umuro = 1.7649198597566198 W/m2K
+Umuro = 1.2500269652907372 W/m2K
+Umuro = 1.2889196831028906 W/m2K
+Umuro = 1.7090097813530172 W/m2K
+Umuro = 1.3153716314643107 W/m2K
+Umuro = 1.22258775703131 W/m2K
+Umuro = 1.7228600621641317 W/m2K
+Umuro = 1.3633220965946231 W/m2K
+Umuro = 1.8185589398387774 W/m2K
+Umuro = 1.1663660704646288 W/m2K
+Umuro = 1.162812838153773 W/m2K
+Umuro = 1.2456681052720433 W/m2K
+Umuro = 1.7734617999331246 W/m2K
+Umuro = 1.3602635897595476 W/m2K
+Umuro = 1.8589638134987843 W/m2K
+Umuro = 1.3430724822127973 W/m2K
+Umuro = 1.6710466687722623 W/m2K
+Umuro = 1.6916727176494293 W/m2K
+Umuro = 1.1836426256724026 W/m2K
+Umuro = 1.2009817883004668 W/m2K
+Umuro = 1.2501901596988514 W/m2K
+Umuro = 1.7083214654905208 W/m2K
+Umuro = 1.282527419252694 W/m2K
+Umuro = 1.6481159819111153 W/m2K
+Umuro = 1.184724132089559 W/m2K
+Umuro = 1.206052525967288 W/m2K
+Umuro = 1.1909109042814336 W/m2K
+Umuro = 1.2419761920489893 W/m2K
+Umuro = 1.7219660567307908 W/m2K
+Umuro = 1.2008189007619217 W/m2K
+Umuro = 1.761776174293291 W/m2K
+Umuro = 1.626603734650834 W/m2K
+Umuro = 1.3086827544941995 W/m2K
+Umuro = 1.1693868597257588 W/m2K
+Umuro = 1.3034673001909811 W/m2K
+Umuro = 1.2351233288595314 W/m2K
+Umuro = 1.1443968833993816 W/m2K
+Umuro = 1.123845738788826 W/m2K
+Umuro = 1.195015811016769 W/m2K
+Umuro = 1.2762753756701664 W/m2K
+Umuro = 1.5444298007987918 W/m2K
+Umuro = 1.7358926264291676 W/m2K
+Umuro = 1.2077388370529152 W/m2K
+Umuro = 1.2428903595801417 W/m2K
+Umuro = 1.6714903994178478 W/m2K
+Umuro = 1.144464579613842 W/m2K
+Umuro = 1.212988017650958 W/m2K
+Umuro = 1.165241923935348 W/m2K
+Umuro = 1.2520156575336936 W/m2K
+Umuro = 1.1445326909254894 W/m2K
+Umuro = 1.2252634570550711 W/m2K
+Umuro = 1.337754778965342 W/m2K
+Umuro = 1.3164988185399793 W/m2K
+Umuro = 1.2470605856200143 W/m2K
+Umuro = 1.33811662366646 W/m2K
+Umuro = 1.2784804794707965 W/m2K
+Umuro = 1.2635767633758352 W/m2K
+Umuro = 1.2506392619658533 W/m2K
+Umuro = 1.1330380899957748 W/m2K
+Umuro = 1.2441016452961944 W/m2K
+Umuro = 1.3280397297037563 W/m2K
+Umuro = 1.567390610294064 W/m2K
+Umuro = 1.760433161645572 W/m2K
+Umuro = 1.5351090813660402 W/m2K
+Umuro = 1.3141739469792777 W/m2K
+Umuro = 1.279061090574781 W/m2K
+Umuro = 1.6730522803390193 W/m2K
+Umuro = 1.3837751234915854 W/m2K
+Umuro = 1.1478466069364601 W/m2K
+Umuro = 1.2005372641968963 W/m2K
+Umuro = 1.2584189915482635 W/m2K
+Umuro = 1.7004936818019094 W/m2K
+Umuro = 1.6936643706753547 W/m2K
+Umuro = 1.702801238300464 W/m2K
+Umuro = 1.610415184772377 W/m2K
+Umuro = 1.7010023827220264 W/m2K
+Umuro = 1.6740718314143987 W/m2K
+Umuro = 1.1032360078883288 W/m2K
+Umuro = 1.6650063648537259 W/m2K
+Umuro = 1.317614311382668 W/m2K
+Umuro = 1.1847214201767076 W/m2K
+Umuro = 1.6185610725342507 W/m2K
+Umuro = 1.1313709875777798 W/m2K
+Umuro = 1.2427539384677229 W/m2K
+Umuro = 1.7442033397875087 W/m2K
+Umuro = 1.6101080951663251 W/m2K
+Umuro = 1.1373953986533958 W/m2K
+Umuro = 1.2666049985395664 W/m2K
+Umuro = 1.2330222517888345 W/m2K
+Umuro = 1.1814881294692279 W/m2K
+Umuro = 1.6826362414826728 W/m2K
+Umuro = 1.1266037506097655 W/m2K
+Umuro = 1.6179796116313596 W/m2K
+Umuro = 1.1489247759678634 W/m2K
+Umuro = 1.285656016359942 W/m2K
+Umuro = 1.165904533183741 W/m2K
+Umuro = 1.5319268772757693 W/m2K
+Umuro = 1.2571416557240356 W/m2K
+Umuro = 1.1059696148850975 W/m2K
+Umuro = 1.649273811098611 W/m2K
+Umuro = 1.768804858642262 W/m2K
+Umuro = 1.3198082436662835 W/m2K
+Umuro = 1.6754401140137323 W/m2K
+Umuro = 1.581963123972625 W/m2K
+Umuro = 1.6335945144994368 W/m2K
+Umuro = 1.1709537738182423 W/m2K
+Umuro = 1.7292768229663211 W/m2K
+Umuro = 1.61524704042889 W/m2K
+Umuro = 1.1733487881835665 W/m2K
+Umuro = 1.669435182370586 W/m2K
+Umuro = 1.680890120981337 W/m2K
+Umuro = 1.6267118617118703 W/m2K
+Umuro = 1.745727732028767 W/m2K
+Umuro = 1.2781160829371645 W/m2K
+Umuro = 1.248867796325848 W/m2K
+Umuro = 1.132575436544062 W/m2K
+Umuro = 1.2098603905019285 W/m2K
+Umuro = 1.1651522337055975 W/m2K
+Umuro = 1.221209149440829 W/m2K
+Umuro = 1.7393756622567813 W/m2K
+Umuro = 1.692533742359949 W/m2K
+Umuro = 1.6185465591434618 W/m2K
+Umuro = 1.7153209945283232 W/m2K
+Umuro = 1.1363232350895158 W/m2K
+Umuro = 1.6853271278582804 W/m2K
+Umuro = 1.2952457892909885 W/m2K
+Umuro = 1.1629555128786548 W/m2K
+Umuro = 1.668989551807228 W/m2K
+Umuro = 1.6526183002622303 W/m2K
+Umuro = 1.2586098466123832 W/m2K
+Umuro = 1.5617572411309533 W/m2K
+Umuro = 1.7442158360991151 W/m2K
+Umuro = 1.6902663294054945 W/m2K
+Umuro = 1.6832023180359967 W/m2K
+Umuro = 1.7783905858628632 W/m2K
+Umuro = 1.6652428357261264 W/m2K
+Umuro = 1.2452859509168577 W/m2K
+Umuro = 1.5410604904347542 W/m2K
+Umuro = 1.247477644610963 W/m2K
+Umuro = 1.2440913263100872 W/m2K
+Umuro = 1.6708929756147048 W/m2K
+Umuro = 1.2698599836511069 W/m2K
+Umuro = 1.6086647946558865 W/m2K
+Umuro = 1.6109718005962699 W/m2K
+Umuro = 1.3054249074165463 W/m2K
+Umuro = 1.3055767187608758 W/m2K
+Umuro = 1.1735467783264961 W/m2K
+Umuro = 1.1192823297999464 W/m2K
+Umuro = 1.2196234018600376 W/m2K
+Umuro = 1.2041437873100882 W/m2K
+Umuro = 1.1727412745170678 W/m2K
+Umuro = 1.2845462761961342 W/m2K
+Umuro = 1.2369973412199737 W/m2K
+Umuro = 1.797527359800656 W/m2K
+Umuro = 1.3284149524149227 W/m2K
+Umuro = 1.5674119053446258 W/m2K
+Umuro = 1.1292587824241176 W/m2K
+Umuro = 1.1732633539541053 W/m2K
+Umuro = 1.1743201573710946 W/m2K
+Umuro = 1.1022055261708374 W/m2K
+Umuro = 1.1595067590557115 W/m2K
+Umuro = 1.2955009101047399 W/m2K
+Umuro = 1.2314380994675869 W/m2K
+Umuro = 1.6769892011301593 W/m2K
+Umuro = 1.6599857130562203 W/m2K
+Umuro = 1.5275679884360969 W/m2K
+Umuro = 1.6231002362184508 W/m2K
+Umuro = 1.6316489474726503 W/m2K
+Umuro = 1.6819807800043902 W/m2K
+Umuro = 1.1500478882300915 W/m2K
+Umuro = 1.2476741176411457 W/m2K
+Umuro = 1.748650072303918 W/m2K
+Umuro = 1.1911862646621796 W/m2K
+Umuro = 1.530869944287354 W/m2K
+Umuro = 1.1201904579864082 W/m2K
+Umuro = 1.6175793519008368 W/m2K
+Umuro = 1.11530473330108 W/m2K
+Umuro = 1.3058518298033348 W/m2K
+Umuro = 1.303092535152553 W/m2K
+Umuro = 1.5699771575822792 W/m2K
+Umuro = 1.6788412244584134 W/m2K
+Umuro = 1.5279731568237216 W/m2K
+Umuro = 1.169314929223266 W/m2K
+Umuro = 1.321497496524621 W/m2K
+Umuro = 1.516323260701022 W/m2K
+Umuro = 1.6722896550610216 W/m2K
+Umuro = 1.2974434564517878 W/m2K
+Umuro = 1.2791209520610738 W/m2K
+Umuro = 1.2095221723963694 W/m2K
+Umuro = 1.5991206542181944 W/m2K
+Umuro = 1.1527260209092403 W/m2K
+Umuro = 1.2556905481223042 W/m2K
+Umuro = 1.534897245499924 W/m2K
+Umuro = 1.1349749319637745 W/m2K
+Umuro = 1.2840165474737422 W/m2K
+Umuro = 1.5807673411232577 W/m2K
+Umuro = 1.514465482291739 W/m2K
+Umuro = 1.2080506903987362 W/m2K
+Umuro = 1.6448082758725915 W/m2K
+Umuro = 1.308672104424188 W/m2K
+Umuro = 1.205239708174458 W/m2K
+Umuro = 1.1004829093053285 W/m2K
+Umuro = 1.104420845365405 W/m2K
+Umuro = 1.101756811369937 W/m2K
+Umuro = 1.6386524155800586 W/m2K
+Umuro = 1.557015414059378 W/m2K
+Umuro = 1.1148575317504068 W/m2K
+Umuro = 1.1891562280351795 W/m2K
+Umuro = 1.2619233438244228 W/m2K
+Umuro = 1.1915328081077239 W/m2K
+Umuro = 1.2324281972995301 W/m2K
+Umuro = 1.167172648701878 W/m2K
+Umuro = 1.1240308979841944 W/m2K
+Umuro = 1.57887102819813 W/m2K
+Umuro = 1.536116374275471 W/m2K
+Umuro = 1.7148681314935754 W/m2K
+Umuro = 1.2415463352503269 W/m2K
+Umuro = 1.308436344059663 W/m2K
+Umuro = 1.1745806236353018 W/m2K
+Umuro = 1.696817876324383 W/m2K
+Umuro = 1.1737433561107895 W/m2K
+Umuro = 1.6488563427338347 W/m2K
+Umuro = 1.222514271989477 W/m2K
+Umuro = 1.2350857806002562 W/m2K
+Umuro = 1.6189109466684435 W/m2K
+Umuro = 1.1173670219083378 W/m2K
+Umuro = 1.0985179318396459 W/m2K
+Umuro = 1.2678257906001054 W/m2K
+Umuro = 1.1537572693367826 W/m2K
+Umuro = 1.2051751788876002 W/m2K
+Umuro = 1.7091015523990511 W/m2K
+Umuro = 1.679871887071006 W/m2K
+Umuro = 1.5554241798516621 W/m2K
+Umuro = 1.6682636883644488 W/m2K
+Umuro = 1.6656164937486235 W/m2K
+Umuro = 1.503761463089948 W/m2K
+Umuro = 1.2507487492470009 W/m2K
+Umuro = 1.579146339643269 W/m2K
+Umuro = 1.6289020551281268 W/m2K
+Umuro = 1.1129515169327646 W/m2K
+Umuro = 1.2435973439186605 W/m2K
+Umuro = 1.223452323485448 W/m2K
+Umuro = 1.634182630408686 W/m2K
+Umuro = 1.6654383392277823 W/m2K
+Umuro = 1.560262104033982 W/m2K
+Umuro = 1.5225528316636416 W/m2K
+Umuro = 1.1963839645819068 W/m2K
+Umuro = 1.1284148193606625 W/m2K
+Umuro = 1.6506530055164415 W/m2K
+Umuro = 1.1680019635990573 W/m2K
+Umuro = 1.1507400731853887 W/m2K
+Umuro = 1.1931367484456317 W/m2K
+Umuro = 1.5307234919490775 W/m2K
+Umuro = 1.5917846172974002 W/m2K
+Umuro = 1.5804524506049402 W/m2K
+Umuro = 1.257719155794924 W/m2K
+Umuro = 1.2177228947923104 W/m2K
+Umuro = 1.0995263855936952 W/m2K
+Umuro = 1.5862838804513129 W/m2K
+Umuro = 1.5382487279012622 W/m2K
+Umuro = 1.1032360078883288 W/m2K
+Umuro = 1.1938479432595517 W/m2K
+Umuro = 1.5249747351964575 W/m2K
+Umuro = 1.2463273636554393 W/m2K
+Umuro = 1.6490032865773467 W/m2K
+Umuro = 1.5821724764781502 W/m2K
+Umuro = 1.135868473216672 W/m2K
+Umuro = 1.1081747278866885 W/m2K
+Umuro = 1.1062354573873294 W/m2K
+Umuro = 1.5606067255016702 W/m2K
+Umuro = 1.271244929647316 W/m2K
+Umuro = 1.1551058164218535 W/m2K
+Umuro = 1.6907648075874837 W/m2K
+Umuro = 1.5617484575242178 W/m2K
+Umuro = 1.2673392544048878 W/m2K
+Umuro = 1.5919929120138552 W/m2K
+Umuro = 1.1547579351194743 W/m2K
+Umuro = 1.5757532183277896 W/m2K
+Umuro = 1.1033873107737284 W/m2K
+Umuro = 1.71782539492614 W/m2K
+Umuro = 1.263537635617031 W/m2K
+Umuro = 1.6252242677891098 W/m2K
+Umuro = 1.1907499007110596 W/m2K
+Umuro = 1.4906617324923686 W/m2K
+Umuro = 1.106872041017988 W/m2K
+Umuro = 1.2042972025295102 W/m2K
+Umuro = 1.1056653180409317 W/m2K
+Umuro = 1.6481301881992712 W/m2K
+Umuro = 1.2432806407526635 W/m2K
+Umuro = 1.1472663708144446 W/m2K
+Umuro = 1.1014914841927232 W/m2K
+Umuro = 1.2182654993497444 W/m2K
+Umuro = 1.1264761175866804 W/m2K
+Umuro = 1.1326735698075103 W/m2K
+Umuro = 1.5004583397904079 W/m2K
+Umuro = 1.2222781669578744 W/m2K
+Umuro = 1.6162589921410864 W/m2K
+Umuro = 1.1135019147975638 W/m2K
+Umuro = 1.2061934339023104 W/m2K
+Umuro = 1.2673108711175565 W/m2K
+Umuro = 1.2658678303526667 W/m2K
+Umuro = 1.5448226933745484 W/m2K
+Umuro = 1.52399968353956 W/m2K
+Umuro = 1.1062437219316108 W/m2K
+Umuro = 1.6261436525752344 W/m2K
+Umuro = 1.6252719366820896 W/m2K
+Umuro = 1.554761360453047 W/m2K
+Umuro = 1.2326234858064327 W/m2K
+Umuro = 1.6342564561383832 W/m2K
+Umuro = 1.1992125118529255 W/m2K
+Umuro = 1.656698141495162 W/m2K
+Umuro = 1.1055861840392258 W/m2K
+Umuro = 1.6803277315760594 W/m2K
+Umuro = 1.5837051631438905 W/m2K
+Umuro = 1.2482083398633 W/m2K
+Umuro = 1.2697627288434175 W/m2K
+Umuro = 1.191536482155309 W/m2K
+Umuro = 1.4747045208056895 W/m2K
+Umuro = 1.1029762373562777 W/m2K
+Umuro = 1.1000263839939777 W/m2K
+Umuro = 1.5461409826247157 W/m2K
+Umuro = 1.5598383349101395 W/m2K
+Umuro = 1.1246491705835062 W/m2K
+Umuro = 1.719193079761463 W/m2K
+Umuro = 1.1150639701476317 W/m2K
+Umuro = 1.188801699643333 W/m2K
+Umuro = 1.254861682508436 W/m2K
+Umuro = 1.211851723036087 W/m2K
+Umuro = 1.1052184263513625 W/m2K
+Umuro = 1.2561796643259298 W/m2K
+Umuro = 1.272002449644228 W/m2K
+Umuro = 1.6604044400109494 W/m2K
+Umuro = 1.125218681718809 W/m2K
+Umuro = 1.294793717922404 W/m2K
+Umuro = 1.5130197034511514 W/m2K
+Umuro = 1.0924900337758419 W/m2K
+Umuro = 1.552160055570171 W/m2K
+Umuro = 1.6477814673330056 W/m2K
+Umuro = 1.6234753016789356 W/m2K
+Umuro = 1.196281735299499 W/m2K
+Umuro = 1.497480994365619 W/m2K
+Umuro = 1.558611654414321 W/m2K
+Umuro = 1.194995448994695 W/m2K
+Umuro = 1.6196449608218837 W/m2K
+Umuro = 1.101909564782695 W/m2K
+Umuro = 1.2177195012202195 W/m2K
+Umuro = 1.2590708836252829 W/m2K
+Umuro = 1.2728362104753572 W/m2K
+Umuro = 1.6307595034605922 W/m2K
+Umuro = 1.5129880856506068 W/m2K
+Umuro = 1.1523871273071877 W/m2K
+Umuro = 1.174926358337802 W/m2K
+Umuro = 1.2522656947820086 W/m2K
+Umuro = 1.6259218569521545 W/m2K
+Umuro = 1.1508896039753556 W/m2K
+Umuro = 1.5075097078333626 W/m2K
+Umuro = 1.4882793914476082 W/m2K
+Umuro = 1.6476471639601307 W/m2K
+Umuro = 1.2879285496901298 W/m2K
+Umuro = 1.4780183095430013 W/m2K
+Umuro = 1.6552255347549283 W/m2K
+Umuro = 1.1735299143328584 W/m2K
+Umuro = 1.1773729020613408 W/m2K
+Umuro = 1.5635381534461 W/m2K
+Umuro = 1.6269751396962506 W/m2K
+Umuro = 1.1441672315549476 W/m2K
+Umuro = 1.1966834836498434 W/m2K
+Umuro = 1.681381775987536 W/m2K
+Umuro = 1.2672564317768191 W/m2K
+Umuro = 1.1767099157577088 W/m2K
+Umuro = 1.1051662480921065 W/m2K
+Umuro = 1.5617330492130774 W/m2K
+Umuro = 1.2201706148295386 W/m2K
+Umuro = 1.095474747706708 W/m2K
+Umuro = 1.2383170107301575 W/m2K
+Umuro = 1.1203317653981024 W/m2K
+Umuro = 1.628964537137856 W/m2K
+Umuro = 1.187400327851251 W/m2K
+Umuro = 1.2758918701176218 W/m2K
+Umuro = 1.5850721098491307 W/m2K
+Umuro = 1.1086672335365273 W/m2K
+Umuro = 1.176517763324594 W/m2K
+Umuro = 1.6163210410524425 W/m2K
+Umuro = 1.1120012515975686 W/m2K
+Umuro = 1.1567532787611206 W/m2K
+Umuro = 1.5038964459415916 W/m2K
+Umuro = 1.507352248144852 W/m2K
+Umuro = 1.1355354154969364 W/m2K
+Umuro = 1.210283769268493 W/m2K
+Umuro = 1.2420449478209843 W/m2K
+Umuro = 1.1004406277187613 W/m2K
+Umuro = 1.109971279929978 W/m2K
+Umuro = 1.2638831542220086 W/m2K
+Umuro = 1.2172073760028943 W/m2K
+Umuro = 1.565012444504552 W/m2K
+Umuro = 1.494728775106815 W/m2K
+Umuro = 1.261950511906408 W/m2K
+Umuro = 1.1931546068096865 W/m2K
+Umuro = 1.6282336451215507 W/m2K
+Umuro = 1.287936794312046 W/m2K
+Umuro = 1.5559902846406655 W/m2K
+Umuro = 1.4800549832141912 W/m2K
+Umuro = 1.204622530695593 W/m2K
+Umuro = 1.5992905953362069 W/m2K
+Umuro = 1.1100281311349303 W/m2K
+Umuro = 1.152124004686551 W/m2K
+Umuro = 1.1908597105794791 W/m2K
+Umuro = 1.6506481024987458 W/m2K
+Umuro = 1.1982251995723372 W/m2K
+Umuro = 1.185167996643889 W/m2K
+Umuro = 1.0950934117914286 W/m2K
+Umuro = 1.6392842137635402 W/m2K
+Umuro = 1.548286346253907 W/m2K
+Umuro = 1.562734269388258 W/m2K
+Umuro = 1.205641367091619 W/m2K
+Umuro = 1.1866108938491062 W/m2K
+Umuro = 1.2678257906001054 W/m2K
+Umuro = 1.1948389971725475 W/m2K
+Umuro = 1.1762830049229769 W/m2K
+Umuro = 1.1372846256780222 W/m2K
+Umuro = 1.1537075849145344 W/m2K
+Umuro = 1.0885509790487562 W/m2K
+Umuro = 1.211589377040009 W/m2K
+Umuro = 1.0974199544061698 W/m2K
+Umuro = 1.5948836333009537 W/m2K
+Umuro = 1.469496656582622 W/m2K
+Umuro = 1.5472942705201205 W/m2K
+Umuro = 1.5424596548966147 W/m2K
+Umuro = 1.438995069252867 W/m2K
+Umuro = 1.1724505313100488 W/m2K
+Umuro = 1.1377569605480444 W/m2K
+Umuro = 1.5644404550712783 W/m2K
+Umuro = 1.5538508100238877 W/m2K
+Umuro = 1.6292139706930011 W/m2K
+Umuro = 1.4919412015417142 W/m2K
+Umuro = 1.6224597113568793 W/m2K
+Umuro = 1.495217008250897 W/m2K
+Umuro = 1.215537679992402 W/m2K
+Umuro = 1.1925223956030215 W/m2K
+Umuro = 1.2254269486095426 W/m2K
+Umuro = 1.6211129968283642 W/m2K
+Umuro = 1.5609153820661976 W/m2K
+Umuro = 1.2053130198264397 W/m2K
+Umuro = 1.665275848127652 W/m2K
+Umuro = 1.2921808759512514 W/m2K
+Umuro = 1.0994592621619854 W/m2K
+Umuro = 1.5867480737817683 W/m2K
+Umuro = 1.1520094053985153 W/m2K
+Umuro = 1.245047798320821 W/m2K
+Umuro = 1.1214511124783522 W/m2K
+Umuro = 1.2555817369652598 W/m2K
+Umuro = 1.1329441001281555 W/m2K
+Umuro = 1.2898434182492866 W/m2K
+Umuro = 1.0870702277689088 W/m2K
+Umuro = 1.2576790059750766 W/m2K
+Umuro = 1.650959335138781 W/m2K
+Umuro = 1.686656831823249 W/m2K
+Umuro = 1.1615737697646482 W/m2K
+Umuro = 1.2794538238003066 W/m2K
+Umuro = 1.2277762627257758 W/m2K
+Umuro = 1.0971045087497415 W/m2K
+Umuro = 1.4920906810881458 W/m2K
+Umuro = 1.1430807377529875 W/m2K
+Umuro = 1.1566920772048468 W/m2K
+Umuro = 1.583753767447267 W/m2K
+Umuro = 1.09699442146021 W/m2K
+Umuro = 1.1833292251397352 W/m2K
+Umuro = 1.2134402418304326 W/m2K
+Umuro = 1.5227407044952088 W/m2K
+Umuro = 1.2937940266215462 W/m2K
+Umuro = 1.1976995108167134 W/m2K
+Umuro = 1.4830115314087955 W/m2K
+Umuro = 1.1575552996162164 W/m2K
+Umuro = 1.4999732462962403 W/m2K
+Umuro = 1.2109617629155431 W/m2K
+Umuro = 1.2350227951226898 W/m2K
+Umuro = 1.1193965781674518 W/m2K
+Umuro = 1.5480513904865774 W/m2K
+Umuro = 1.4254133078991251 W/m2K
+Umuro = 1.6429441742935116 W/m2K
+Umuro = 1.226991410866759 W/m2K
+Umuro = 1.0969128620190425 W/m2K
+Umuro = 1.08907683503047 W/m2K
+Umuro = 1.1958010262762675 W/m2K
+Umuro = 1.6246716267249208 W/m2K
+Umuro = 1.2050548607248355 W/m2K
+Umuro = 1.278559540913826 W/m2K
+Umuro = 1.4533689538077268 W/m2K
+Umuro = 1.4362689122382317 W/m2K
+Umuro = 1.6328502112500394 W/m2K
+Umuro = 1.6222325891026954 W/m2K
+Umuro = 1.0908059265347747 W/m2K
+Umuro = 1.1056718041337703 W/m2K
+Umuro = 1.5684341422329569 W/m2K
+Umuro = 1.4533689538077268 W/m2K
+Umuro = 1.469590914834845 W/m2K
+Umuro = 1.2370855388183157 W/m2K
+Umuro = 1.2855336256911112 W/m2K
+Umuro = 1.6277964489843146 W/m2K
+Umuro = 1.230619325494307 W/m2K
+Umuro = 1.417807552379553 W/m2K
+Umuro = 1.6305769714698208 W/m2K
+Umuro = 1.2877633267466753 W/m2K
+Umuro = 1.5945273208939912 W/m2K
+Umuro = 1.0948832661016028 W/m2K
+Umuro = 1.1996767861773467 W/m2K
+Umuro = 1.6429195509842918 W/m2K
+Umuro = 1.587886556334853 W/m2K
+Umuro = 1.5644404550712783 W/m2K
+Umuro = 1.2427816120118451 W/m2K
+Umuro = 1.2483613136465803 W/m2K
+Umuro = 1.2732405768912944 W/m2K
+Umuro = 1.2659097434212225 W/m2K
+Umuro = 1.4333087384670553 W/m2K
+Umuro = 1.2810998635439947 W/m2K
+Umuro = 1.0994877237044445 W/m2K
+Umuro = 1.1731140331658698 W/m2K
+Umuro = 1.0959845440762133 W/m2K
+Umuro = 1.1949287112381446 W/m2K
+Umuro = 1.5418646881933438 W/m2K
+Umuro = 1.5037153184674483 W/m2K
+Umuro = 1.1871770074491161 W/m2K
+Umuro = 1.6024841812287982 W/m2K
+Umuro = 1.4371484225304434 W/m2K
+Umuro = 1.2794907587327813 W/m2K
+Umuro = 1.4764180851590734 W/m2K
+Umuro = 1.630514617349963 W/m2K
+Umuro = 1.1601048039045734 W/m2K
+Umuro = 1.0966620058392673 W/m2K
+Umuro = 1.289250408489914 W/m2K
+Umuro = 1.1321832433036878 W/m2K
+Umuro = 1.084828650396576 W/m2K
+Umuro = 1.2526284679826325 W/m2K
+Umuro = 1.4276230398493763 W/m2K
+Umuro = 1.5511583727885792 W/m2K
+Umuro = 1.267946596194271 W/m2K
+Umuro = 1.493555797151092 W/m2K
+Umuro = 1.4524087491388407 W/m2K
