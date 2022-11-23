@@ -1,5 +1,9 @@
 
 import numpy as np
+from matplotlib.path import Path
+from matplotlib.patches import PathPatch
+from matplotlib.collections import PatchCollection
+
 from k_constants import (
     CAVITIES_PER_ROW,
     L,
@@ -70,4 +74,36 @@ def generate_cavitiy_ansys_parameters(x: list, W: int, w: int):
             vectors.append(l_i)
     return np.array(vectors)
             
+# returns 4 corners of rectangles (cavities and perimeter) to draw de brick
+def brick_corners_positions(b: list, matrix: list):
+    rectangles = []
+    corner_1 = [b[0] - b[2]/2 , b[1] - b[3]/2]
+    corner_2 = [b[0] + b[2]/2 , b[1] - b[3]/2]
+    corner_3 = [b[0] + b[2]/2 , b[1] + b[3]/2]
+    corner_4 = [b[0] - b[2]/2 , b[1] + b[3]/2]
+    corners = np.array([corner_1, corner_2, corner_3, corner_4])
+    rectangles.append(corners)
+    for row in matrix:
+        corner_1 = [row[0] - row[2]/2 , row[1] - row[3]/2]
+        corner_2 = [row[0] + row[2]/2 , row[1] - row[3]/2]
+        corner_3 = [row[0] + row[2]/2 , row[1] + row[3]/2]
+        corner_4 = [row[0] - row[2]/2 , row[1] + row[3]/2]
+        corners = np.array([corner_1, corner_2, corner_3, corner_4])
+        rectangles.append(corners)
+    return np.array(rectangles)
+
+# to plot polygon
+# from stack overflow
+# Plots a Polygon to pyplot `ax`
+def plot_polygon(ax, poly, **kwargs):
+    path = Path.make_compound_path(
+        Path(np.asarray(poly.exterior.coords)[:, :2]),
+        *[Path(np.asarray(ring.coords)[:, :2]) for ring in poly.interiors])
+
+    patch = PathPatch(path, **kwargs)
+    collection = PatchCollection([patch], **kwargs)
+    
+    ax.add_collection(collection, autolim=True)
+    ax.autoscale_view()
+    return collection
             
