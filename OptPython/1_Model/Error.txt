@@ -1,0 +1,3156 @@
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.641   TIME= 18:24:57
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x0000026CC8535FC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.781   TIME= 18:25:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD68C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.812   TIME= 18:25:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB3F4C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.891   TIME= 18:25:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB3F640>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.969   TIME= 18:25:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF3C3D8240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.047   TIME= 18:25:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB40380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.125   TIME= 18:25:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD56C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.172   TIME= 18:25:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB7C440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.344   TIME= 18:25:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD5B00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.469   TIME= 18:25:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD3C00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.562   TIME= 18:25:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB95E80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.641   TIME= 18:25:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABA9B40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.719   TIME= 18:25:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB77E40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.844   TIME= 18:25:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABA9240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.938   TIME= 18:25:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABAD080>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.969   TIME= 18:25:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD4B40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.031   TIME= 18:25:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AA139C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.109   TIME= 18:25:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAB3DC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.188   TIME= 18:25:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABAD240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.266   TIME= 18:25:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4A9DFBC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.359   TIME= 18:25:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB48D80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.422   TIME= 18:25:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB7CF00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.500   TIME= 18:25:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB35C80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.578   TIME= 18:25:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB4EBC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.719   TIME= 18:25:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABEE240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.891   TIME= 18:25:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABFB180>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.984   TIME= 18:25:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF1500>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.078   TIME= 18:25:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF8540>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.172   TIME= 18:25:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF6380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.297   TIME= 18:25:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAD3780>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.406   TIME= 18:25:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AC08480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.469   TIME= 18:25:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABFB080>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.547   TIME= 18:25:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBECB40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.625   TIME= 18:25:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBEE200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.688   TIME= 18:25:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABFBB80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.828   TIME= 18:25:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBE2A80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.922   TIME= 18:25:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AA57200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.016   TIME= 18:25:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC14700>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.109   TIME= 18:25:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC1C440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.219   TIME= 18:25:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AC0AB80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.344   TIME= 18:25:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBF76C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.469   TIME= 18:25:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AC0AD00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.562   TIME= 18:25:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AC0A980>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.703   TIME= 18:25:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB37840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.922   TIME= 18:25:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF1740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.062   TIME= 18:25:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBF7D80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.219   TIME= 18:25:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABA9BC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.375   TIME= 18:25:35
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABA9600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.500   TIME= 18:25:35
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC207C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.641   TIME= 18:25:35
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC29200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.797   TIME= 18:25:36
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAC0EC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.891   TIME= 18:25:36
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF1580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.969   TIME= 18:25:36
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AA15BC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.125   TIME= 18:25:37
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB773C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.281   TIME= 18:25:37
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABFB140>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.469   TIME= 18:25:37
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC29880>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.734   TIME= 18:25:38
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF6D40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.906   TIME= 18:25:38
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4ABF61C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.047   TIME= 18:25:39
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC03EC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.188   TIME= 18:25:39
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC0C040>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.312   TIME= 18:25:39
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC2EAC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.469   TIME= 18:25:40
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC64480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.594   TIME= 18:25:40
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC56A80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.734   TIME= 18:25:40
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC77F00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.891   TIME= 18:25:41
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC7A5C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.031   TIME= 18:25:41
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC56F40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.156   TIME= 18:25:41
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC71FC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.281   TIME= 18:25:42
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC713C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.422   TIME= 18:25:42
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC29600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.562   TIME= 18:25:42
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AC08680>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.641   TIME= 18:25:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBF7B40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.750   TIME= 18:25:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AAB7400>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.938   TIME= 18:25:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBF7880>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.047   TIME= 18:25:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBF7140>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.172   TIME= 18:25:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC87800>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.297   TIME= 18:25:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC1B740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.406   TIME= 18:25:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCA3480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.547   TIME= 18:25:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BBFAD80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.672   TIME= 18:25:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCA3300>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.797   TIME= 18:25:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC87500>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.922   TIME= 18:25:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCA79C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.031   TIME= 18:25:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC8F200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.156   TIME= 18:25:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCA7940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.266   TIME= 18:25:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BC644C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlExitedError'>
+MAPDL server connection terminated
+<traceback object at 0x000001CF4BCD5900>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4AC08080>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BCA7A80>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BCD5300>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BCF9E40>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD17B00>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD17780>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BCD7600>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD112C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BCB2B00>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD28040>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BBEE6C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD2EB80>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD326C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD2F640>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD5B6C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD51F40>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD64F40>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD60A80>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x000001CF4BD75680>
+Fail ---  Error: 
+<class 'KeyboardInterrupt'>
+Interrupted during MAPDL execution
+<traceback object at 0x000001CF4BCC89C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.297   TIME= 18:30:42
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCA7E40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.359   TIME= 18:30:42
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD51900>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.438   TIME= 18:30:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCC42C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.562   TIME= 18:30:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD0BC80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.641   TIME= 18:30:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD36580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.719   TIME= 18:30:43
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD11A40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.797   TIME= 18:30:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD5B040>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       0.922   TIME= 18:30:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD28F40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.031   TIME= 18:30:44
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD1DC40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.141   TIME= 18:30:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB37840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.281   TIME= 18:30:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD9B1C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.375   TIME= 18:30:45
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDBD880>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.500   TIME= 18:30:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BCAF580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.609   TIME= 18:30:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDBD8C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.734   TIME= 18:30:46
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDBD800>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.812   TIME= 18:30:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDCB740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       1.891   TIME= 18:30:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDC0BC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.016   TIME= 18:30:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDA04C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.141   TIME= 18:30:47
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD75640>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.219   TIME= 18:30:48
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD08B80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.344   TIME= 18:30:48
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4AB3FA80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.469   TIME= 18:30:48
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD32600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.531   TIME= 18:30:49
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD36740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.625   TIME= 18:30:49
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD39100>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.734   TIME= 18:30:49
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD55400>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.828   TIME= 18:30:49
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDE6B40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       2.906   TIME= 18:30:50
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD6500>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.062   TIME= 18:30:50
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD79C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.156   TIME= 18:30:50
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDE6B00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.250   TIME= 18:30:51
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDE6940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.359   TIME= 18:30:51
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD758C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.516   TIME= 18:30:51
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDDC880>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.625   TIME= 18:30:51
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD3C40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.734   TIME= 18:30:52
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDDC4C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.828   TIME= 18:30:52
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD11440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       3.938   TIME= 18:30:52
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDC9D40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.047   TIME= 18:30:53
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDD6500>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.141   TIME= 18:30:53
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD6B7C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.250   TIME= 18:30:53
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDD6380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.344   TIME= 18:30:53
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDDDFC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.438   TIME= 18:30:54
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE026C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.531   TIME= 18:30:54
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE0D580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.609   TIME= 18:30:54
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE02580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.703   TIME= 18:30:55
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE0D380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.812   TIME= 18:30:55
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDFEC00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.891   TIME= 18:30:55
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDDF380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       4.969   TIME= 18:30:55
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDF5540>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.047   TIME= 18:30:56
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDDFCC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.141   TIME= 18:30:56
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD55240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.219   TIME= 18:30:56
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDC6C40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.297   TIME= 18:30:57
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE18940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.406   TIME= 18:30:57
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD55800>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.516   TIME= 18:30:57
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE339C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.656   TIME= 18:30:57
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE33B00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.750   TIME= 18:30:58
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE47AC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.859   TIME= 18:30:58
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE35940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       5.906   TIME= 18:30:58
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3E900>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.000   TIME= 18:30:59
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE35A80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.109   TIME= 18:30:59
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE35800>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.234   TIME= 18:30:59
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD7B80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.391   TIME= 18:31:00
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD3D40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.516   TIME= 18:31:00
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD7840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.609   TIME= 18:31:00
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDD65C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.766   TIME= 18:31:01
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE598C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.859   TIME= 18:31:01
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3F8C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       6.969   TIME= 18:31:01
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE5AD00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.047   TIME= 18:31:01
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE7EAC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.141   TIME= 18:31:02
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE81D40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.250   TIME= 18:31:02
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE5F3C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.359   TIME= 18:31:02
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE0D1C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.484   TIME= 18:31:03
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE86740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.703   TIME= 18:31:03
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE81940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.859   TIME= 18:31:04
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDF97C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       7.984   TIME= 18:31:04
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BD85440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.078   TIME= 18:31:04
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDEEC40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.219   TIME= 18:31:05
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE947C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.344   TIME= 18:31:05
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE47080>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.531   TIME= 18:31:05
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE94480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.641   TIME= 18:31:06
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE12740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.766   TIME= 18:31:06
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEA7940>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       8.906   TIME= 18:31:06
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE76C40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.000   TIME= 18:31:07
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE9FB80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.109   TIME= 18:31:07
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE76DC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.219   TIME= 18:31:07
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEA2E00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.312   TIME= 18:31:08
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE0D440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.438   TIME= 18:31:08
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3FB00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.531   TIME= 18:31:08
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDEEE40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.641   TIME= 18:31:09
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3FF80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.734   TIME= 18:31:09
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE54100>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.812   TIME= 18:31:09
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB9680>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =       9.891   TIME= 18:31:09
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB1540>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.000   TIME= 18:31:10
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDEEF40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.109   TIME= 18:31:10
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB1580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.203   TIME= 18:31:10
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB8C80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.297   TIME= 18:31:11
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB92C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.406   TIME= 18:31:11
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4BDBD840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.516   TIME= 18:31:11
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB9600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.625   TIME= 18:31:12
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDEE440>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.750   TIME= 18:31:12
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3FCC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.844   TIME= 18:31:12
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE81C80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      10.938   TIME= 18:31:12
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE9FD00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.031   TIME= 18:31:13
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE47240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.125   TIME= 18:31:13
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE9F3C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.203   TIME= 18:31:13
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE3E240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.281   TIME= 18:31:14
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DECCC00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.422   TIME= 18:31:14
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DED9280>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.500   TIME= 18:31:14
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DED2F00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.625   TIME= 18:31:14
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE35840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.734   TIME= 18:31:15
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CDF5F00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      11.906   TIME= 18:31:15
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEA7580>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.016   TIME= 18:31:15
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DE984C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.109   TIME= 18:31:16
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DE9EE40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.188   TIME= 18:31:16
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DE988C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.297   TIME= 18:31:16
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE0D300>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.375   TIME= 18:31:17
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEEE7C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.484   TIME= 18:31:17
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DECEC00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.547   TIME= 18:31:17
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DE98740>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.656   TIME= 18:31:17
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF0D6C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.750   TIME= 18:31:18
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF0D700>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.812   TIME= 18:31:18
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF20D40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.922   TIME= 18:31:18
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEC3840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      12.984   TIME= 18:31:19
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB4FC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.062   TIME= 18:31:19
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEC3DC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.188   TIME= 18:31:19
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEE8FC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.297   TIME= 18:31:20
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF222C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.375   TIME= 18:31:20
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEE83C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.516   TIME= 18:31:20
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF3CCC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.594   TIME= 18:31:20
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEC3780>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.672   TIME= 18:31:21
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF51300>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.828   TIME= 18:31:21
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF6BA80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      13.922   TIME= 18:31:21
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF6CCC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.016   TIME= 18:31:22
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF51A40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.109   TIME= 18:31:22
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF6B7C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.203   TIME= 18:31:22
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF47A80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.344   TIME= 18:31:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DED91C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.422   TIME= 18:31:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB43C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.547   TIME= 18:31:23
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF221C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.641   TIME= 18:31:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CEB8CC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.766   TIME= 18:31:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE4B080>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.859   TIME= 18:31:24
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8A140>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      14.938   TIME= 18:31:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8F200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.078   TIME= 18:31:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFA6BC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.188   TIME= 18:31:25
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8BE00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.297   TIME= 18:31:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8AF40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.391   TIME= 18:31:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8A840>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.500   TIME= 18:31:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4CE38600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.562   TIME= 18:31:26
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF6B7C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.641   TIME= 18:31:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF8FA00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.719   TIME= 18:31:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFC0240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.812   TIME= 18:31:27
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DEF5A00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      15.938   TIME= 18:31:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFDF600>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.047   TIME= 18:31:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFEC1C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.141   TIME= 18:31:28
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFE3E40>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.219   TIME= 18:31:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E00C680>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.344   TIME= 18:31:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E00C5C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.453   TIME= 18:31:29
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFDD200>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.531   TIME= 18:31:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFDF140>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.656   TIME= 18:31:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF20CC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.750   TIME= 18:31:30
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFA6380>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.844   TIME= 18:31:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E019B00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      16.984   TIME= 18:31:31
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E027240>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.109   TIME= 18:31:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E0183C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.234   TIME= 18:31:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E046480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.359   TIME= 18:31:32
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4F033480>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.484   TIME= 18:31:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4F022980>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.578   TIME= 18:31:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4E013640>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.688   TIME= 18:31:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF51E00>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.766   TIME= 18:31:33
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFC0F80>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      17.906   TIME= 18:31:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DF206C0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      18.047   TIME= 18:31:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4F082780>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      18.156   TIME= 18:31:34
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4DFDDBC0>
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlRuntimeError'>
+
+
+Error in instance GRPC_127.0.0.1:None
+
+*** ERROR ***                           CP =      18.281   TIME= 18:31:35
+ The option of KXX on the MP command is either not available for this    
+ version of Ansys or the appropriate product was not selected for this   
+ session.                                                                
+  Contact your Ansys support person for more information.
+<traceback object at 0x000001CF4F082C00>

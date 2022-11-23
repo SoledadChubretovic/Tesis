@@ -93,7 +93,7 @@ def brick_corners_positions(b: list, matrix: list):
     return np.array(rectangles)
 
 # to plot polygon
-# from stack overflow
+# code from stack overflow
 # Plots a Polygon to pyplot `ax`
 def plot_polygon(ax, poly, **kwargs):
     path = Path.make_compound_path(

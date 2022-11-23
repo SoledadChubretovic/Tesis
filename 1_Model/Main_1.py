@@ -66,6 +66,9 @@ xu = np.append(xu, w_MAX)  # mm
 xu = np.append(xu, W2_MAX)  # mm
 xu = np.append(xu, LAMBDA_CLAY100_MAX)  # mm
 
+print(xl)
+print(xu)
+
 # ElementwiseProblem evaluates one solution at a time
 class ConstrainedProblem(ElementwiseProblem):
 
