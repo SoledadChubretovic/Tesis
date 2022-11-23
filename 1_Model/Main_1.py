@@ -44,7 +44,7 @@ from k_constants import (
 
 start = time.time()
 
-f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\Error.txt", "w")
+f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\Error.txt", "w")
 f.close()
 
 #### IMPLEMENT THE PROBLEM ####
@@ -78,8 +78,6 @@ class ConstrainedProblem(ElementwiseProblem):
                          **kwargs)
 
     def _evaluate(self, x, out, *args, **kwargs):
-        print(x)
-
         # geometrical parameters
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
         _w_pos = len(x) - 3
@@ -232,7 +230,7 @@ for i in range(0,len(data1)):
 result_table = tabulate(table_data, tablefmt = "plain")
 
 # write table to results file
-results = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\OptPython_Log.txt", "w")
+results = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\OptPython_Log.txt", "w")
 results.write(result_table)
 results.close()
 

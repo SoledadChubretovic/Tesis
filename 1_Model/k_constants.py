@@ -5,7 +5,7 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3, 3, 3]
-CAVITIES_PER_ROW = [4, 4, 4, 4]
+CAVITIES_PER_ROW = [3, 4, 3, 4, 3]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
@@ -40,7 +40,6 @@ LAMBDA_CLAY100_MAX = 62 # W/mK
 # setting all the other cavities and internal walls to t_min (minimum value)
 l_MAX = L - 2 * min(CAVITIES_PER_ROW) * T_MIN # mm
 
-
 # maximum width for cavities in mm
 # setting all the other cavities and internal walls to t_min (minimum value)
 w_MAX = W2_MAX - 2 * len(CAVITIES_PER_ROW) * T_MIN # mm
@@ -57,23 +56,53 @@ RAD = 0.83
 RsiRse = 0.17  # m2K/W
 
 # thermal conductivity of glue mortar (experimetal value) in W/mK
-λ_glue_mortar = 0.23  # W/mK
+λ_GLUE_MORTAR = 0.23  # W/mK
 
 # brick proportion in 1 square meter wall
 # this value is considered with 12 mm glue mortar between bricks
 # this value is sonsiderad for the given L and H
-prop_ladrillo = 0.84
+PROP_BRICK = 0.84
+
 # glue mortar proportion in 1 quare meter wall
-prop_mort = 1 - prop_ladrillo
+prop_mortar = 1 - PROP_BRICK
 
 # cold area index
 # area of the brick that 18 celcius degrees temperature is applied
-cold_area_index = 2
+COLD_AREA_INDEX = 2
 
 # hot area index
 # area of the brick that 30 celcius degrees temperature is applied
-hot_area_index = 4
+HOT_AREA_INDEX = 4
+
+# temperatures applied to generate heat flux
+T_HOT = 30 # degrees celcius
+T_COLD = 18 # degrees celcius
 
 # finite element size
-element_size = 0.009
+ELEMENT_SIZE = 0.0055
+
+# number of constraints
+N_CONSTRAINTS = 3
+
+# number of objectives
+N_OBJECTIVES = 2
+
+# normative compression resistance
+# in chile bricks have to be grade G2 (11 MPa minimum)
+# most bricks are grade G1 (15 MPa minimum) so we set use this value
+# See NCh1928 and NCh169
+G2 = 15
+
+# number of generation for termination criterion
+N_GENERATION = 50
+
+# population size
+POPULATION_SIZE = 50
+
+# number of offsprings
+N_OFFSPRINGS = 50
+
+# big number to assign to invalid geometries
+U_MURO_INVALID = 50
+
 # %%
