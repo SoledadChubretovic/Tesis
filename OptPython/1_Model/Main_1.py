@@ -78,6 +78,7 @@ class ConstrainedProblem(ElementwiseProblem):
                          **kwargs)
 
     def _evaluate(self, x, out, *args, **kwargs):
+        print(x)
 
         # geometrical parameters
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
