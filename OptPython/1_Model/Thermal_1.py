@@ -23,14 +23,12 @@ import numpy as np
 import sys
 
 # start licence instance 
-# this is already done in OpenAPDL
-
 from ansys.mapdl.core import launch_mapdl, Mapdl
 mapdl = launch_mapdl()
 
 def ThermalAnalysis(b, matrix, λ_clay):
     try:
-        mapdl = Mapdl(start_instance=False)
+        mapdl = Mapdl(start_instance = False)
         # thermal analysis of the brick
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
 
