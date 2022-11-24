@@ -1,0 +1,5 @@
+Umuro = 1.7198180827613612 W/m2K
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlExitedError'>
+MAPDL server connection terminated
+<traceback object at 0x000001F0FAA166C0>

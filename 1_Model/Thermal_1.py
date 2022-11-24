@@ -281,12 +281,12 @@ def ThermalAnalysis(b, matrix, λ_clay):
         C_muro = (PROP_BRICK * λeq + prop_mortar * λ_GLUE_MORTAR) / b[3]  # W/m2K
         # wall thermal transmitance in W/m2K
         U_muro = 1 / (RsiRse + 1 / C_muro)  # W/m2K
-        f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\Error.txt", "a")
+        f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\Error.txt", "a")
         f.write("Umuro = " + str(U_muro) + " W/m2K" + "\n")
         f.close()
     except:
         U_muro = U_MURO_INVALID
-        f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\OptPython\1_Model\Error.txt", "a")
+        f = open(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\Error.txt", "a")
         f.write("Fail --- " + " Error: " + "\n")
         for i in range(len(sys.exc_info())):
             f.write(str(sys.exc_info()[i]) + "\n")
