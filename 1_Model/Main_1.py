@@ -66,8 +66,7 @@ xu = np.append(xu, w_MAX)  # mm
 xu = np.append(xu, W2_MAX)  # mm
 xu = np.append(xu, LAMBDA_CLAY100_MAX)  # mm
 
-print(xl)
-print(xu)
+print(xl,xu)
 
 # ElementwiseProblem evaluates one solution at a time
 class ConstrainedProblem(ElementwiseProblem):
@@ -132,7 +131,7 @@ class ConstrainedProblem(ElementwiseProblem):
         # avoid using ANSYS when the geometry  of the brick is wrong
         # or it doesnt fulfill the constraints
         U_muro = 0
-
+        print(CAVITIES_PER_ROW)
         thickness_tabique_w = tabique_w(W,w)
         if thickness_tabique_w < 10:
             U_muro = U_MURO_INVALID
@@ -140,6 +139,9 @@ class ConstrainedProblem(ElementwiseProblem):
         for i in range(0, len(CAVITIES_PER_ROW)):
             thickness_tabique_l = tabique_l(i, x)
             if thickness_tabique_l < 10:
+                # print(x)
+                # print(thickness_tabique_l)
+                # print(i)
                 U_muro = U_MURO_INVALID
                 break
 
