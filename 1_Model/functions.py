@@ -7,6 +7,7 @@ from matplotlib.collections import PatchCollection
 from k_constants import (
     CAVITIES_PER_ROW,
     L,
+    T_MIN
 )
 
 # returns the index of the first cavity of the row 
@@ -43,6 +44,12 @@ def tabique_w(W: int, w: int) -> float:
 def tabique_l(row: int, x: list) -> float:
     index_start, index_end = row_limits(row)
     return (L - sum(x[index_start: index_end])) / (CAVITIES_PER_ROW[row] + 1)
+
+# defines the upper limit for l variable
+# maximum lenght for cavities in mm
+# setting all the other cavities and internal walls to t_min (minimum value)
+def upper_limit_l(row: int) -> float:
+    return L - 2 * CAVITIES_PER_ROW[row] * T_MIN
 
 # returns the position of the center of a cavity in y axis 
 def pos_y(row: int, tabique_w: float, w: int):

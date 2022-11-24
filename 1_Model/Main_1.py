@@ -18,7 +18,8 @@ import matplotlib.pyplot as plt
 from functions import (
     generate_cavitiy_ansys_parameters,
     tabique_w,
-    tabique_l
+    tabique_l,
+    upper_limit_l
 )
 from k_constants import (
     N_CAVITIES,
@@ -30,7 +31,6 @@ from k_constants import (
     W2_MAX,
     LAMBDA_CLAY100_MIN,
     LAMBDA_CLAY100_MAX,
-    l_MAX,
     w_MAX,
     N_CONSTRAINTS,
     N_OBJECTIVES,
@@ -61,7 +61,12 @@ xl = np.append(xl, W2_MIN)  # mm
 xl = np.append(xl, LAMBDA_CLAY100_MIN)  # mm
 
 # upper limits of variables
-xu = np.ones(N_CAVITIES) * l_MAX  # mm
+xu =[]
+for i in range(0, len(CAVITIES_PER_ROW)):
+    l_max = upper_limit_l(i)
+    xu_l = np.ones(CAVITIES_PER_ROW[i]) * l_max
+    xu = np.append(xu, xu_l)
+#xu = np.ones(N_CAVITIES) * l_MAX  # mm
 xu = np.append(xu, w_MAX)  # mm
 xu = np.append(xu, W2_MAX)  # mm
 xu = np.append(xu, LAMBDA_CLAY100_MAX)  # mm
@@ -131,17 +136,14 @@ class ConstrainedProblem(ElementwiseProblem):
         # avoid using ANSYS when the geometry  of the brick is wrong
         # or it doesnt fulfill the constraints
         U_muro = 0
-        print(CAVITIES_PER_ROW)
+
         thickness_tabique_w = tabique_w(W,w)
-        if thickness_tabique_w < 10:
+        if thickness_tabique_w < T_MIN:
             U_muro = U_MURO_INVALID
         
         for i in range(0, len(CAVITIES_PER_ROW)):
             thickness_tabique_l = tabique_l(i, x)
-            if thickness_tabique_l < 10:
-                # print(x)
-                # print(thickness_tabique_l)
-                # print(i)
+            if thickness_tabique_l < T_MIN:
                 U_muro = U_MURO_INVALID
                 break
 
