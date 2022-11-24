@@ -3154,3 +3154,25 @@ Error in instance GRPC_127.0.0.1:None
  session.                                                                
   Contact your Ansys support person for more information.
 <traceback object at 0x000001CF4F082C00>
+Umuro = 1.7198180827613612 W/m2K
+Umuro = 1.7869350107315525 W/m2K
+Fail ---  Error: 
+<class 'ansys.mapdl.core.errors.MapdlExitedError'>
+MAPDL server connection terminated
+<traceback object at 0x00000236FF6C2240>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF688780>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF6BBB00>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF6B9380>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF706040>
