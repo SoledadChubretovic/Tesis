@@ -3176,3 +3176,23 @@ Fail ---  Error:
 <class 'OSError'>
 Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
 <traceback object at 0x00000236FF706040>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF6FD840>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF7133C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF7309C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF7015C0>
+Fail ---  Error: 
+<class 'OSError'>
+Unable to connect to MAPDL gRPC instance at 127.0.0.1:50052
+<traceback object at 0x00000236FF730C00>
