@@ -66,12 +66,9 @@ for i in range(0, len(CAVITIES_PER_ROW)):
     l_max = upper_limit_l(i)
     xu_l = np.ones(CAVITIES_PER_ROW[i]) * l_max
     xu = np.append(xu, xu_l)
-#xu = np.ones(N_CAVITIES) * l_MAX  # mm
 xu = np.append(xu, w_MAX)  # mm
 xu = np.append(xu, W2_MAX)  # mm
 xu = np.append(xu, LAMBDA_CLAY100_MAX)  # mm
-
-print(xl,xu)
 
 # ElementwiseProblem evaluates one solution at a time
 class ConstrainedProblem(ElementwiseProblem):
@@ -87,6 +84,7 @@ class ConstrainedProblem(ElementwiseProblem):
     def _evaluate(self, x, out, *args, **kwargs):
         # geometrical parameters
         # vector x is defined as [l1, l2, ..., ln-1, ln, w, W, λ]
+
         _w_pos = len(x) - 3
         _W_pos = len(x) - 2
         _λ_pos = len(x) - 1
@@ -107,13 +105,6 @@ class ConstrainedProblem(ElementwiseProblem):
 
         # net area of the brick
         An = Ab - Ah #mm2
-
-        # needed to create brick in ANSYS
-        # (center_x, center_y, dimension_x, dimension_y) of perimeter of the brick
-        b = np.array([L/2, W/2, L, W])/1000  # m
-
-        # (center_x, center_y, dimension_x, dimension_y) of each cavity
-        matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000  # m
 
         # thermal conductivity of the clay
         λ_clay = x[_λ_pos] / 100  # W/mK
@@ -151,6 +142,12 @@ class ConstrainedProblem(ElementwiseProblem):
             U_muro = U_MURO_INVALID
         
         if U_muro == 0:
+            # needed to create brick in ANSYS
+            # (center_x, center_y, dimension_x, dimension_y) of perimeter of the brick
+            b = np.array([L/2, W/2, L, W])/1000  # m
+
+            # (center_x, center_y, dimension_x, dimension_y) of each cavity
+            matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000  # m
             U_muro = ThermalAnalysis(b, matrix, λ_clay)
 
         # Objective 1: minimize weigth

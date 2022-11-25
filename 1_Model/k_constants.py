@@ -39,7 +39,7 @@ LAMBDA_CLAY100_MAX = 62 # W/mK
 
 # maximum width for cavities in mm
 # setting all the other cavities and partition walls to t_min (minimum value)
-w_MAX = W2_MAX - 2 * len(CAVITIES_PER_ROW) * T_MIN # mm
+w_MAX = ((W2_MAX * 2) - (len(CAVITIES_PER_ROW) + 1) * T_MIN) / len(CAVITIES_PER_ROW) # mm
 
 # Stefan-Boltzmann constant
 BTZ = 5.67e-8 #W/m2K4
@@ -91,12 +91,12 @@ N_OBJECTIVES = 2
 G2 = 15
 
 # number of generation for termination criterion
-N_GENERATION = 50
+N_GENERATION = 1000
 # population size
-POPULATION_SIZE = 50
+POPULATION_SIZE = 100
 
 # number of offsprings
-N_OFFSPRINGS = 50
+N_OFFSPRINGS = 100
 
 # big number to assign to invalid geometries
 U_MURO_INVALID = 50
