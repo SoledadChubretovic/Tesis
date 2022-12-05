@@ -1,5 +1,8 @@
 #%% matrix
+from shapely.geometry import Polygon
 import numpy as np
+import matplotlib.pyplot as plt
+import time
 from functions import (
     generate_cavitiy_ansys_parameters,
     brick_corners_positions,
@@ -29,8 +32,6 @@ matrix = generate_cavitiy_ansys_parameters(x, W, w) / 1000  # m
 
 draw_brick = brick_corners_positions(b, matrix)
 
-from shapely.geometry import Polygon
-import matplotlib.pyplot as plt
 # Input polygon with two holes
 # (remember exterior point order is ccw, holes cw else
 # holes may not appear as holes.)
@@ -40,8 +41,9 @@ polygon = Polygon(shell = draw_brick[0],
 
 fig, ax = plt.subplots()
 plot_polygon(ax, polygon, facecolor = 'white', edgecolor = 'red')
-
 #%%
-with open('/Users/macbookair/Desktop/Tesis-main/OptPython/1_Model/OptPython_Log.txt','r') as f:
-    lines = f.read().splitlines()
+plt.savefig(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\bricks_images\Brick_" + time.strftime("%Y-%m-%d %H.%M.%S") + ".png")
 
+
+
+# %%

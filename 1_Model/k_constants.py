@@ -5,7 +5,7 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3, 3, 3]
-CAVITIES_PER_ROW = [3, 4, 3, 4, 3]
+CAVITIES_PER_ROW = [4,4,4,4]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
@@ -91,7 +91,9 @@ N_OBJECTIVES = 2
 G2 = 15
 
 # number of generation for termination criterion
+# not needed for default termination
 N_GENERATION = 1000
+
 # population size
 POPULATION_SIZE = 100
 

@@ -10,10 +10,11 @@ from pymoo.operators.mutation.pm import PM
 from pymoo.operators.sampling.rnd import IntegerRandomSampling
 from pymoo.operators.repair.rounding import RoundingRepair
 from pymoo.algorithms.moo.nsga2 import RankAndCrowdingSurvival
-from pymoo.termination import get_termination
 from pymoo.optimize import minimize
 from tabulate import tabulate
 import matplotlib.pyplot as plt
+from pymoo.termination.default import DefaultMultiObjectiveTermination
+#from pymoo.termination import get_termination
 
 from functions import (
     generate_cavitiy_ansys_parameters,
@@ -35,7 +36,7 @@ from k_constants import (
     N_CONSTRAINTS,
     N_OBJECTIVES,
     G2,
-    N_GENERATION,
+    #N_GENERATION,
     N_OFFSPRINGS,
     POPULATION_SIZE,
     CAVITIES_PER_ROW,
@@ -179,27 +180,58 @@ problem = ConstrainedProblem()
 
 # algorithm parameters based in ZDT benchmark problems
 algorithm = NSGA2(
-    pop_size = POPULATION_SIZE, #population size
-    n_offsprings = N_OFFSPRINGS, #new individuals from crosssover and mutation (children),
-    sampling = IntegerRandomSampling(), #creates initial population
+    pop_size = POPULATION_SIZE, # population size
+    n_offsprings = N_OFFSPRINGS, # new individuals from crosssover and mutation (children),
+    sampling = IntegerRandomSampling(), # creates initial population
     crossover = SBX(prob = 0.9, eta = 15, vtype = float, repair = RoundingRepair()),
     mutation = PM(prob = 1 / n_var, eta = 20, vtype = float, repair = RoundingRepair()),
-    survival = RankAndCrowdingSurvival(), #Yo Agregue esto
-    eliminate_duplicates = True, #element created are different from the ones that already exist
+    survival = RankAndCrowdingSurvival(),
+    eliminate_duplicates = True, # element created are different from the ones that already exist
 )
 
 #### DEFINE A TERMINATION CRITERION ####
 
-termination = get_termination("n_gen",N_GENERATION)
+# DefaultMultiObjectiveTermination has the following parameters:
+#     xtol = 0.0005,
+#     cvtol = 1e-8,
+#     ftol = 0.005,
+#     period = 50,
+#     n_max_gen = 1000,
+#     n_max_evals = 100000
+termination = DefaultMultiObjectiveTermination()
+
+class MyMultiObjectiveDefaultTermination(DefaultMultiObjectiveTermination):
+
+    def __init__(self, **kwargs) -> None:
+        super().__init__(**kwargs)
+        self.reasons = None
+
+    def _decide(self, metrics):
+        decisions = metrics[-1]
+        cont = decisions["x_tol"] and (decisions["cv_tol"] or decisions["f_tol"])
+
+        if not cont:
+            self.reasons = [name for name in ["x_tol", "cv_tol", "f_tol"] if not decisions[name]]
+
+        return cont
+
+ret = minimize(problem,
+               algorithm,
+               termination=MyMultiObjectiveDefaultTermination(),
+               seed=1,
+               save_history=False,
+               verbose=True)
+
+print(ret.algorithm.termination.reasons)
 
 #### OPTIMIZE ####
 
 res = minimize(problem,
                algorithm,
                termination,
-               seed = 1, #ramdom parameter to ensure reproducible results
+               seed = 1, # ramdom parameter to ensure reproducible results
                save_history = True,
-               verbose = True #some printouts during the algorithm´s execution is provided
+               verbose = True # some printouts during the algorithm´s execution is provided
 )
 
 
@@ -250,3 +282,4 @@ plt.xlabel("Weight kg")
 plt.ylabel("Thermal Transmitance W/m2K")
 plt.title("Weight vs. Thermal Transmitance")
 plt.show()
+plt.savefig(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\Pareto_images\Pareto_" + time.strftime("%Y-%m-%d %H.%M.%S") + ".png")
