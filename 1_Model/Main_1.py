@@ -13,8 +13,7 @@ from pymoo.algorithms.moo.nsga2 import RankAndCrowdingSurvival
 from pymoo.optimize import minimize
 from tabulate import tabulate
 import matplotlib.pyplot as plt
-from pymoo.termination.default import DefaultMultiObjectiveTermination
-#from pymoo.termination import get_termination
+from pymoo.termination import get_termination
 
 from functions import (
     generate_cavitiy_ansys_parameters,
@@ -36,7 +35,7 @@ from k_constants import (
     N_CONSTRAINTS,
     N_OBJECTIVES,
     G2,
-    #N_GENERATION,
+    N_GENERATION,
     N_OFFSPRINGS,
     POPULATION_SIZE,
     CAVITIES_PER_ROW,
@@ -191,38 +190,7 @@ algorithm = NSGA2(
 
 #### DEFINE A TERMINATION CRITERION ####
 
-# DefaultMultiObjectiveTermination has the following parameters:
-#     xtol = 0.0005,
-#     cvtol = 1e-8,
-#     ftol = 0.005,
-#     period = 50,
-#     n_max_gen = 1000,
-#     n_max_evals = 100000
-termination = DefaultMultiObjectiveTermination()
-
-class MyMultiObjectiveDefaultTermination(DefaultMultiObjectiveTermination):
-
-    def __init__(self, **kwargs) -> None:
-        super().__init__(**kwargs)
-        self.reasons = None
-
-    def _decide(self, metrics):
-        decisions = metrics[-1]
-        cont = decisions["x_tol"] and (decisions["cv_tol"] or decisions["f_tol"])
-
-        if not cont:
-            self.reasons = [name for name in ["x_tol", "cv_tol", "f_tol"] if not decisions[name]]
-
-        return cont
-
-ret = minimize(problem,
-               algorithm,
-               termination=MyMultiObjectiveDefaultTermination(),
-               seed=1,
-               save_history=False,
-               verbose=True)
-
-print(ret.algorithm.termination.reasons)
+termination = get_termination("n_gen", N_GENERATION)
 
 #### OPTIMIZE ####
 

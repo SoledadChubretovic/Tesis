@@ -5,14 +5,14 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3, 3, 3]
-CAVITIES_PER_ROW = [4,4,4,4]
+CAVITIES_PER_ROW = [3,4,3,4,3]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
 
 # total amount of variables
 # this is defined as sum(li) + w + W + lambda_clay
-N_VARIABLES = N_CAVITIES + 3 
+N_VARIABLES = N_CAVITIES + 3
 
 # length of the brick (x axis) in mm
 L = 154 # mm
@@ -91,14 +91,16 @@ N_OBJECTIVES = 2
 G2 = 15
 
 # number of generation for termination criterion
-# not needed for default termination
-N_GENERATION = 1000
+# based on result observation
+# not the best way to end the optimization but I could not make tolerance termination work
+N_GENERATION = N_VARIABLES * 5
 
 # population size
-POPULATION_SIZE = 100
+POPULATION_SIZE = 60
 
 # number of offsprings
-N_OFFSPRINGS = 100
+# for now, set equal to POPULATION_SIZE
+N_OFFSPRINGS = POPULATION_SIZE
 
 # big number to assign to invalid geometries
 U_MURO_INVALID = 50

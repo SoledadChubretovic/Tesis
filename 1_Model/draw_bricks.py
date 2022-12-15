@@ -12,12 +12,10 @@ from k_constants import (
     L,
 )
 
-brick1 = [8.49273,	1.08617,	10,	43,	25,	26,	34,	34,	11,	25,	43,	25,	19,	13,	20,	23,	14,	47,	12,	300, 0.61]
-brick2 = [3.42295,	1.60774, 10, 43,	25	,25, 33,	35,	11,	25,	43,	25,	19,	13,	20,	23,	14,	47,	12,	140,	0.61]
-#brick2 = [8.44662,  1.10005,  10,  43,  25,  25,  34,  34,  11,  25,  40,  25,  17,  13,  20,  23,  14,  46,  12,  298,  0.61]
-#brick2 = [3.46,     1.64516,  11,  42,  25,  26,  34,  31,  13,  26,  40,  14,  17, 13,  20,  23,  15,  46,  12,  140,  0.61]
+brick1 = [4.86769,  1.47129,  20,  66,  24,  35,  15,  35,  15,  24,  22,  10,  30,  33,  15,  26,  66,  30,  18,  13,  198,  0.59]
+brick2 = [7.16879,  1.32368,  20,  67,  24,  35,  15,  39,  15,  25,  35,  13,  29,  34,  15,  26,  66,  30,  18,  16,  284,  0.59]
 
-x = brick2[2:]
+x = brick1[2:]
 
 _w_pos = len(x) - 3
 _W_pos = len(x) - 2
@@ -42,7 +40,7 @@ polygon = Polygon(shell = draw_brick[0],
 fig, ax = plt.subplots()
 plot_polygon(ax, polygon, facecolor = 'white', edgecolor = 'red')
 #%%
-plt.savefig(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\bricks_images\Brick_" + time.strftime("%Y-%m-%d %H.%M.%S") + ".png")
+#plt.savefig(r"C:\Users\nchubretovic\OneDrive - Entel\Escritorio\Sole\Tesis\1_Model\bricks_images\Brick_" + time.strftime("%Y-%m-%d %H.%M.%S") + ".png")
 
 
 
