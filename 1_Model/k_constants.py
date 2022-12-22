@@ -5,7 +5,7 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3, 3, 3]
-CAVITIES_PER_ROW = [3,4,3,4,3]
+CAVITIES_PER_ROW = [3,4,3,4,3,4,3,4,3,4,3,4,3]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
@@ -21,7 +21,7 @@ L = 154 # mm
 # the constants are defined in terms of half of the thickness
 # to make easier future calculations in terms of how it is modeled
 # W2_MIN changes if we add more rows
-W2_MIN = 140 / 2 # mm  70 * 2 = 140
+W2_MIN = 270 / 2 # mm  70 * 2 = 140
 W2_MAX = 300 / 2 # mm 150 * 2 = 300
 
 # high of the brick (z axis) in mm
