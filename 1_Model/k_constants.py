@@ -5,7 +5,7 @@
 # number of cavities per row in the brick
 # each entry is the number per row
 # ie: [4, 3, 4] or [3, 3, 3, 3, 3]
-CAVITIES_PER_ROW = [3,4,3,4,3,4,3,4,3,4,3,4,3]
+CAVITIES_PER_ROW = [3,4,3,4,3]
 
 # total amount of cavities in the brick
 N_CAVITIES = sum(CAVITIES_PER_ROW)
@@ -21,8 +21,8 @@ L = 154 # mm
 # the constants are defined in terms of half of the thickness
 # to make easier future calculations in terms of how it is modeled
 # W2_MIN changes if we add more rows
-W2_MIN = 270 / 2 # mm  70 * 2 = 140
-W2_MAX = 300 / 2 # mm 150 * 2 = 300
+W2_MIN = 200 / 10 # mm  70 * 2 = 140
+W2_MAX = 300 / 10 # mm 150 * 2 = 300
 
 # high of the brick (z axis) in mm
 H = 113 # mm
@@ -34,8 +34,9 @@ T_MIN = 10 # mm
 # clay thermal transmitance limits in W/mK
 # the number is *100 to use discrete calculations and simplify
 # the optimization process
-LAMBDA_CLAY100_MIN = 50 # W/mK
-LAMBDA_CLAY100_MAX = 62 # W/mK
+LAMBDA_CLAY100_MIN = 60 #50 # W/mK
+LAMBDA_CLAY100_MAX = 60 #62 # W/mK
+
 
 # maximum width for cavities in mm
 # setting all the other cavities and partition walls to t_min (minimum value)
@@ -76,7 +77,8 @@ T_HOT = 30 # degrees celcius
 T_COLD = 18 # degrees celcius
 
 # finite element size
-ELEMENT_SIZE = 0.0055
+# 0.0055 is the better choice for time and precision
+ELEMENT_SIZE = 0.007
 
 # number of constraints
 N_CONSTRAINTS = 3

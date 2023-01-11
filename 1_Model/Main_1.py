@@ -50,9 +50,9 @@ f.close()
 #### IMPLEMENT THE PROBLEM ####
 
 # number of variables, constrains and objective functions
-n_var = N_VARIABLES #number of variables (li,w,W,lambda_clay)
-n_ieq_constr = N_CONSTRAINTS #number of constraints
-n_obj = N_OBJECTIVES #number of objectives
+n_var = N_VARIABLES # number of variables (li,w,W,lambda_clay)
+n_ieq_constr = N_CONSTRAINTS # number of constraints
+n_obj = N_OBJECTIVES # number of objectives
 
 
 # lower limit fo variables
@@ -90,7 +90,7 @@ class ConstrainedProblem(ElementwiseProblem):
         _λ_pos = len(x) - 1
 
         # width of the brick
-        W = x[_W_pos] * 2  # mm
+        W = x[_W_pos] * 10  # * 2 # mm
 
         # width of every cavity
         w = x[_w_pos]  # mm
